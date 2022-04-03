@@ -445,7 +445,7 @@ if __name__ == "__main__":
                 pathn, cfg.num_segments, (h, w),
                 cfg.seginit, len(shapes_record),
                 pos_init_method,
-                trainable_stroke=True,
+                trainable_stroke=False,
                 gt=gt, )
             para_stroke_width[path_idx] = stroke_width_var
             para_stroke_color[path_idx] = stroke_color_var
