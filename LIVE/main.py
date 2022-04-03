@@ -182,6 +182,7 @@ class naive_coord_init():
 
 class sparse_coord_init():
     def __init__(self, pred, gt, format='[bs x c x 2D]', quantile_interval=200, nodiff_thres=0.1):
+        print("debug sparse_coord_init")
         if isinstance(pred, torch.Tensor):
             pred = pred.detach().cpu().numpy()
         if isinstance(gt, torch.Tensor):
