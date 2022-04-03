@@ -275,11 +275,15 @@ def init_shapes(num_paths,
 
         # circle points initialization
         elif seginit_cfg.type=="circle":
+            print(f"debug circle")
             radius = seginit_cfg.radius
             if radius is None:
                 radius = npr.uniform(0.5, 1)
+            print(f"debug center")
             center = pos_init_method()
+            print(f"debug color_ref")
             color_ref = copy.deepcopy(center)
+            print(f"debug points")
             points = get_bezier_circle(
                 radius=radius, segments=num_segments,
                 bias=center)
