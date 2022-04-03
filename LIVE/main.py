@@ -218,6 +218,7 @@ class sparse_coord_init():
         target_id = max(self.idcnt, key=self.idcnt.get)
         _, component, cstats, ccenter = cv2.connectedComponentsWithStats(
             (self.map==target_id).astype(np.uint8), connectivity=4)
+        print("debug call finish connectedComponentsWithStats")
         # remove cid = 0, it is the invalid area
         csize = [ci[-1] for ci in cstats[1:]]
         target_cid = csize.index(max(csize))+1
