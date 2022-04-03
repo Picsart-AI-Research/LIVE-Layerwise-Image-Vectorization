@@ -245,9 +245,11 @@ def init_shapes(num_paths,
     h, w = canvas_size
 
     # change path init location
+    print("change path init location")
     if pos_init_method is None:
         pos_init_method = random_coord_init(canvas_size=canvas_size)
 
+    print("f loop num_paths")
     for i in range(num_paths):
         num_control_points = [2] * num_segments
 
