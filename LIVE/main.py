@@ -460,6 +460,7 @@ if __name__ == "__main__":
         shapes_record += shapes
         shape_groups_record += shape_groups
 
+        print("=> Saving init ...")
         if cfg.save.init:
             filename = os.path.join(
                 cfg.experiment_dir, "svg-init",
@@ -489,6 +490,7 @@ if __name__ == "__main__":
                 optim, lr_lambda=lrlambda_f, last_epoch=cfg.num_iter)
         optim_schedular_dict[path_idx] = (optim, scheduler)
 
+        print("=> Start Inner loop training")
         # Inner loop training
         t_range = tqdm(range(cfg.num_iter))
         for t in t_range:
