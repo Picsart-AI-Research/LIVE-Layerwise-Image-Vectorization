@@ -440,6 +440,7 @@ if __name__ == "__main__":
         pathn_record_str = '-'.join([str(i) for i in pathn_record])
 
         # initialize new shapes related stuffs.
+        print("initialize new shapes related stuffs.")
         if cfg.trainable.stroke:
             shapes, shape_groups, point_var, color_var, stroke_width_var, stroke_color_var = init_shapes(
                 pathn, cfg.num_segments, (h, w),
@@ -457,6 +458,7 @@ if __name__ == "__main__":
                 trainable_stroke=False,
                 gt=gt, )
 
+        print("finish initialize new shapes related stuffs.")
         shapes_record += shapes
         shape_groups_record += shape_groups
 
