@@ -215,6 +215,7 @@ class sparse_coord_init():
         if len(self.idcnt) == 0:
             h, w = self.map.shape
             return [npr.uniform(0, 1)*w, npr.uniform(0, 1)*h]
+            print("debug call in len(self.idcnt) == 0")
         target_id = max(self.idcnt, key=self.idcnt.get)
         _, component, cstats, ccenter = cv2.connectedComponentsWithStats(
             (self.map==target_id).astype(np.uint8), connectivity=4)
