@@ -37,6 +37,12 @@ experiment_4x1:
     max_path: 1
     schedule_each: 1
 
+experiment_5x1:
+  path_schedule:
+    type: repeat
+    max_path: 8
+    schedule_each: 1
+
 experiment_8x1:
   path_schedule:
     type: repeat
