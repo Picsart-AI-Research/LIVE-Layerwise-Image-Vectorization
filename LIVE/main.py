@@ -213,10 +213,13 @@ class sparse_coord_init():
     def __call__(self):
         print("debug start call")
         if len(self.idcnt) == 0:
+            print("debug call start in len(self.idcnt) == 0")
             h, w = self.map.shape
             return [npr.uniform(0, 1)*w, npr.uniform(0, 1)*h]
             print("debug call in len(self.idcnt) == 0")
+
         target_id = max(self.idcnt, key=self.idcnt.get)
+        print("debug call start connectedComponentsWithStats")
         _, component, cstats, ccenter = cv2.connectedComponentsWithStats(
             (self.map==target_id).astype(np.uint8), connectivity=4)
         print("debug call finish connectedComponentsWithStats")
