@@ -1,42 +1,48 @@
-# diffvg
+# LIVE-pytorch
+Towards Layer-wise Image Vectorization
 
-# Install
-Please make sure the install environment meets following requirements:<br>
-cuda version > 10.1 <br>
-gcc version > 7.0<br>
-python 3.7+ <br>
+### Updated for rebuttal (Jan/28/2022)： 
+#### User study
+We create a [user study](https://wj.qq.com/s2/9665341/19ed) as suggested. A more complex user study will be added in the revised version.
 
-```
+The results are collected here: [user study details](user_study_state.csv)
 
-git submodule update --init --recursive
-conda install -y pytorch torchvision -c pytorch
-conda install -y numpy
-conda install -y scikit-image
-conda install -y -c anaconda cmake
-conda install -y -c conda-forge ffmpeg
+#### Code installation
+
+we added  detailed [conda env file](env.yml) and collected detail [system information](system_info.txt) to help the installation.
+
+A more detailed docker and Google Colab demo will be provided.
+
+<div align="center">
+    <img src="images/diffvg4-smile.gif" width="300px" height="300px">
+    <img src="images/live-smile.gif" width="300px" height="300px">
+</div>
+
+<div align="center">
+  <img src="example.png" width="650px" height="300px">
+</div>
+LIVE is able to explicitly presents a Layer-wise representation for simple images. 
+
+## Installation
+```bash
+pip3 install torch torchvision
 pip install svgwrite
 pip install svgpathtools
 pip install cssutils
 pip install numba
 pip install torch-tools
 pip install visdom
-python setup.py install
-```
+pip install scikit-fmm
+pip install opencv-python==4.5.4.60 
+pip install easydict
+pip install scikit-fmm
 
-Here is an example about setting enviroment on slurm (used by most universities):
-```bash
-module load cuda/11.0
-module unload gcc/5.5.0   
-module load gcc/8.1.0 
-export CC=/shared/centos7/gcc/8.1.0/bin/gcc
-export CXX=/shared/centos7/gcc/8.1.0/bin/g++
 ```
-If you have any questions about installation, please let me know.
+Next, please refer DiffVG to install [pydiffvg](https://github.com/BachiLi/diffvg)
 
-## Use case
-For the layer wise reconstruction, run
+
+## Run
 ```bash
-cd pair/Layerwise
-# please modify the parameters as you want. See pair/Layerwise/main.py for details.
-python main.py demo.png --num_paths 1,1,1,1 --save_loss --save_init --pool_size 12 --save_folder debug --free
+python main.py --config config/all.yaml --experiment experiment_8x1 --signature demo1 --target data/demo1.png
 ```
+Please modify the config files to change configurations.
