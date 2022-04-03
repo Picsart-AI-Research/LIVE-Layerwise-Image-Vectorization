@@ -211,6 +211,7 @@ class sparse_coord_init():
         self.idcnt.pop(min(self.idcnt.keys()))
         # remove smallest one to remove the correct region
     def __call__(self):
+        print("debug start call")
         if len(self.idcnt) == 0:
             h, w = self.map.shape
             return [npr.uniform(0, 1)*w, npr.uniform(0, 1)*h]
