@@ -230,6 +230,7 @@ class sparse_coord_init():
         if self.idcnt[target_id] == 0:
             self.idcnt.pop(target_id)
         self.map[component == target_cid] = 0
+        print("debug finish call")
         return [coord_w, coord_h]
 
 
