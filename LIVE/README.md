@@ -29,8 +29,10 @@ pip install numba
 pip install torch-tools
 pip install visdom
 pip install scikit-fmm
-pip install opencv-python
+pip install opencv-python==4.5.4.60 
 pip install easydict
+pip install scikit-fmm
+
 ```
 Next, please refer DiffVG to install [pydiffvg](https://github.com/BachiLi/diffvg)
 

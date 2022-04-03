@@ -182,7 +182,6 @@ class naive_coord_init():
 
 class sparse_coord_init():
     def __init__(self, pred, gt, format='[bs x c x 2D]', quantile_interval=200, nodiff_thres=0.1):
-        print("debug sparse_coord_init")
         if isinstance(pred, torch.Tensor):
             pred = pred.detach().cpu().numpy()
         if isinstance(gt, torch.Tensor):
@@ -211,18 +210,12 @@ class sparse_coord_init():
         self.idcnt.pop(min(self.idcnt.keys()))
         # remove smallest one to remove the correct region
     def __call__(self):
-        print("debug start call")
         if len(self.idcnt) == 0:
-            print("debug call start in len(self.idcnt) == 0")
             h, w = self.map.shape
             return [npr.uniform(0, 1)*w, npr.uniform(0, 1)*h]
-            print("debug call in len(self.idcnt) == 0")
-
         target_id = max(self.idcnt, key=self.idcnt.get)
-        print("debug call start connectedComponentsWithStats")
         _, component, cstats, ccenter = cv2.connectedComponentsWithStats(
             (self.map==target_id).astype(np.uint8), connectivity=4)
-        print("debug call finish connectedComponentsWithStats")
         # remove cid = 0, it is the invalid area
         csize = [ci[-1] for ci in cstats[1:]]
         target_cid = csize.index(max(csize))+1
@@ -236,7 +229,6 @@ class sparse_coord_init():
         if self.idcnt[target_id] == 0:
             self.idcnt.pop(target_id)
         self.map[component == target_cid] = 0
-        print("debug finish call")
         return [coord_w, coord_h]
 
 
@@ -253,11 +245,9 @@ def init_shapes(num_paths,
     h, w = canvas_size
 
     # change path init location
-    print("change path init location")
     if pos_init_method is None:
         pos_init_method = random_coord_init(canvas_size=canvas_size)
 
-    print("for loop num_paths")
     for i in range(num_paths):
         num_control_points = [2] * num_segments
 
@@ -283,25 +273,19 @@ def init_shapes(num_paths,
 
         # circle points initialization
         elif seginit_cfg.type=="circle":
-            print(f"debug circle")
             radius = seginit_cfg.radius
             if radius is None:
                 radius = npr.uniform(0.5, 1)
-            print(f"debug center")
             center = pos_init_method()
-            print(f"debug color_ref")
             color_ref = copy.deepcopy(center)
-            print(f"debug points")
             points = get_bezier_circle(
                 radius=radius, segments=num_segments,
                 bias=center)
 
-        print("init path")
         path = pydiffvg.Path(num_control_points = torch.LongTensor(num_control_points),
                              points = points,
                              stroke_width = torch.tensor(0.0),
                              is_closed = True)
-        print("inited path")
         shapes.append(path)
         # !!!!!!problem is here. the shape group shape_ids is wrong
 
@@ -456,7 +440,6 @@ if __name__ == "__main__":
         pathn_record_str = '-'.join([str(i) for i in pathn_record])
 
         # initialize new shapes related stuffs.
-        print("initialize new shapes related stuffs.")
         if cfg.trainable.stroke:
             shapes, shape_groups, point_var, color_var, stroke_width_var, stroke_color_var = init_shapes(
                 pathn, cfg.num_segments, (h, w),
@@ -474,11 +457,9 @@ if __name__ == "__main__":
                 trainable_stroke=False,
                 gt=gt, )
 
-        print("finish initialize new shapes related stuffs.")
         shapes_record += shapes
         shape_groups_record += shape_groups
 
-        print("=> Saving init ...")
         if cfg.save.init:
             filename = os.path.join(
                 cfg.experiment_dir, "svg-init",
@@ -508,7 +489,6 @@ if __name__ == "__main__":
                 optim, lr_lambda=lrlambda_f, last_epoch=cfg.num_iter)
         optim_schedular_dict[path_idx] = (optim, scheduler)
 
-        print("=> Start Inner loop training")
         # Inner loop training
         t_range = tqdm(range(cfg.num_iter))
         for t in t_range:
