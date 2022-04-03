@@ -249,7 +249,7 @@ def init_shapes(num_paths,
     if pos_init_method is None:
         pos_init_method = random_coord_init(canvas_size=canvas_size)
 
-    print("f loop num_paths")
+    print("for loop num_paths")
     for i in range(num_paths):
         num_control_points = [2] * num_segments
 
@@ -284,10 +284,12 @@ def init_shapes(num_paths,
                 radius=radius, segments=num_segments,
                 bias=center)
 
+        print("init path")
         path = pydiffvg.Path(num_control_points = torch.LongTensor(num_control_points),
                              points = points,
                              stroke_width = torch.tensor(0.0),
                              is_closed = True)
+        print("inited path")
         shapes.append(path)
         # !!!!!!problem is here. the shape group shape_ids is wrong
 
