@@ -1,19 +1,20 @@
+
 default:
   use_ycrcb: False
   seginit:
     type: circle
     radius: 5
   save:
-    init: false
-    image: false
-    output: false
-    video: false
+    init: true
+    image: true
+    output: true
+    video: true
     loss: false
   trainable: 
     bg: False
     record: True
     stroke: False
-#  num_segments: 8
+#  num_segments: 4
   num_iter: 500
   lr_base:
     bg: 0.01
@@ -30,7 +31,7 @@ default:
     xing_loss_weight: 0.01
     bis_loss_weight: null
 
-experiment_1x1:
+experiment_4x1:
   path_schedule:
     type: repeat
     max_path: 1
