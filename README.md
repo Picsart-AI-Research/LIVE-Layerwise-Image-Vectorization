@@ -1,6 +1,6 @@
 # LIVE- Towards Layer-wise Image Vectorization (CVPR 2022 Oral)
 
-| [arXiv]() |[Colab]()|[HuggingFace Space]()| Primary contact: [Xu Ma](mailto:ma.xu1@northeastern.edu)
+| [[arXiv]]() |[[Colab]]()|[[HuggingFace Space]]()| Primary contact: [[Xu Ma]](mailto:ma.xu1@northeastern.edu)
 <div align="center">
     <img src="images/teaser.png" width="70%">
 </div>
