@@ -14,14 +14,16 @@ we added  detailed [conda env file](env.yml) and collected detail [system inform
 A more detailed docker and Google Colab demo will be provided.
 
 <div align="center">
-    <figure>
-        <img src="images/smile.png" width="150px" height="150px">
-        <figcaption>Input Raster Image</figcaption>
-    </figure>
     <img src="images/smile.png" width="150px" height="150px">
     <img src="images/out_diffvg4.gif" width="150px" height="150px">
     <img src="images/out_diffvg256.gif" width="150px" height="150px">
     <img src="images/live-smile.gif" width="150px" height="150px">
+</div>
+<div align="center">
+    <a>Input Raster Image</a>
+    <a>DiffVG (4 paths)</a>
+    <a>DiffVG (256 paths)</a>
+    <a>LIVE (4 paths)</a>
 </div>
 
 <div align="center">
