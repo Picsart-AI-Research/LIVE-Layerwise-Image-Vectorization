@@ -27,7 +27,7 @@ We present a new method to progressively generate a SVG that fits the raster ima
     <img src="images/out_diffvg_256.gif" width="150px" height="150px" alt="Elephant at sunset">
     <img src="images/out_live.gif" width="150px" height="150px" alt="Elephant at sunset">
 </div>
-From left to right are (1)input raster image,  (2)output SVGs of DiffVG(path=5), (3)output SVGs of DiffVG(path=256), and (4)output of our LIVE(path=4).
+From left to right are (1)**input raster image**,  (2)output SVGs of **DiffVG(path=5)**, (3)output SVGs of **DiffVG(path=256)**, and (4)output of our **LIVE(path=4)**.
 
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
