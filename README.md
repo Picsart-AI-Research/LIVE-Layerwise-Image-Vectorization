@@ -1,6 +1,16 @@
 # LIVE- Towards Layer-wise Image Vectorization (CVPR 2022 Oral)
 
-| [[arXiv]]() |[[Colab]]()|[[HuggingFace Space]]()| Primary contact: [[Xu Ma]](mailto:ma.xu1@northeastern.edu)
+[Xu Ma](https://ma-xu.github.io/), 
+[Yuqian Zhou](https://yzhouas.github.io/), 
+[Xingqian Xu](https://www.linkedin.com/in/xingqian-xu-97b46526/), 
+[Bin Sun](https://www.linkedin.com/in/bin-sun-2993b4142/), 
+[Valerii Filev](https://www.linkedin.com/in/valeriy-filev-4704a9123/), 
+[Nikita Orlov](https://www.linkedin.com/in/nukich74/), 
+[Yun Fu](http://www1.ece.neu.edu/~yunfu/), 
+[Humphrey Shi](https://www.humphreyshi.com/home)
+
+[[arXiv]()], [[Colab]()], [[HuggingFace Space]()], Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
+
 <div align="center">
     <img src="images/teaser.png" width="70%">
 </div>
