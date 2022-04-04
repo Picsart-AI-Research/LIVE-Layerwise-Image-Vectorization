@@ -53,6 +53,16 @@ cd ..
 ```
 
 
+## Run Experiments 
+```bash
+cd LIVE
+# Please modify the paramters accordingly.
+python main.py --config <config.yaml> --experiment <experiment-setting> --signature <given-folder-name> --target <input-image> --log_dir <log-dir>
+# Here is an simple example:
+python main.py --config config/base.yaml --experiment experiment_5x1 --signature smile --target figures/smile.png --log_dir log/
+、、、
+
+
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
 We create a [user study](https://wj.qq.com/s2/9665341/19ed) as suggested. A more complex user study will be added in the revised version.
