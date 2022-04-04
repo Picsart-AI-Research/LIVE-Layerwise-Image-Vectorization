@@ -9,13 +9,23 @@
 [Yun Fu](http://www1.ece.neu.edu/~yunfu/), 
 [Humphrey Shi](https://www.humphreyshi.com/home)
 
-[[arXiv]()], [[Colab]()], [[HuggingFace Space]()], Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
+[[arXiv]()], 
+[[Colab Demo]()], 
+[[HuggingFace Space]()], 
+Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
 
 <div align="center">
     <img src="images/teaser.png" width="70%">
 </div>
 We present a new method to progressively generate a SVG that fits the raster image in a layer-wise fashion. Given an arbitrary input image, LIVE recursively learns the visual concepts by adding new optimizable closed bezier paths and optimizing all these paths.
+<br><br><br>
 
+<div align="center">
+    <img src="images/smile.png" width="150px" height="150px" alt="Elephant at sunset">
+    <img src="images/out_diffvg4.gif" width="150px" height="150px" alt="Elephant at sunset">
+    <img src="images/out_diffvg256.gif" width="150px" height="150px" alt="Elephant at sunset">
+    <img src="images/live-smile.gif" width="150px" height="150px" alt="Elephant at sunset">
+</div>
 
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
@@ -29,12 +39,7 @@ we added  detailed [conda env file](env.yml) and collected detail [system inform
 
 A more detailed docker and Google Colab demo will be provided.
 
-<div align="center">
-    <img src="images/smile.png" width="150px" height="150px" alt="Elephant at sunset">
-    <img src="images/out_diffvg4.gif" width="150px" height="150px" alt="Elephant at sunset">
-    <img src="images/out_diffvg256.gif" width="150px" height="150px" alt="Elephant at sunset">
-    <img src="images/live-smile.gif" width="150px" height="150px" alt="Elephant at sunset">
-</div>
+
 <div align="center">
     <div style="width=150px; height=20px;display:inline;">Input Raster Image</div>
     <div style="width=150px; height=20px;display:inline;">DiffVG (4 paths)</div>
