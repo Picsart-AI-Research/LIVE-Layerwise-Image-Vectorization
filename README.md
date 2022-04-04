@@ -63,14 +63,6 @@ python main.py --config <config.yaml> --experiment <experiment-setting> --signat
 python main.py --config config/base.yaml --experiment experiment_5x1 --signature smile --target figures/smile.png --log_dir log/
 ```
 
-## Acknowledgement
-Our implementation is mainly based on the [diffvg](https://github.com/BachiLi/diffvg) codebase. We gratefully thank the authors for their wonderful works.
-
-
-## LICENSE
-LIVE is under the Apache-2.0 license. Please contact the authors for commercial use.
-
-
 ## Reference
 
     @inproceedings{xu2022live,
@@ -79,3 +71,12 @@ LIVE is under the Apache-2.0 license. Please contact the authors for commercial 
         booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
         year={2022}
     }
+
+## Acknowledgement
+Our implementation is mainly based on the [diffvg](https://github.com/BachiLi/diffvg) codebase. We gratefully thank the authors for their wonderful works.
+
+
+## LICENSE
+LIVE is under the Apache-2.0 license. Please contact the authors for commercial use.
+
+
