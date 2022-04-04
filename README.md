@@ -31,6 +31,12 @@ From left to right are (1)<b>input raster image**</b>,  (2)output SVGs of <b>Dif
 With only 5 paths, DiffVG cannot reconstruct the input image. When increasing the path number to 256 (which is significantly larger than the number of necessary paths), DiffVG is able to reconstruct the input. 
 Different, our LIVE is able to reconstruct the input smimling face by only 5 paths, and shows a layer-wise representation.
 
+#### Installation
+We suggest users to use the conda for creating new python environment. 
+
+**Requirement**: 5.0<GCC<6.0;  nvcc >10.0.
+
+
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
 We create a [user study](https://wj.qq.com/s2/9665341/19ed) as suggested. A more complex user study will be added in the revised version.
