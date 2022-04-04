@@ -55,6 +55,7 @@ cd ..
 
 ## Run Experiments 
 ```bash
+conda activate live
 cd LIVE
 # Please modify the paramters accordingly.
 python main.py --config <config.yaml> --experiment <experiment-setting> --signature <given-folder-name> --target <input-image> --log_dir <log-dir>
@@ -62,51 +63,18 @@ python main.py --config <config.yaml> --experiment <experiment-setting> --signat
 python main.py --config config/base.yaml --experiment experiment_5x1 --signature smile --target figures/smile.png --log_dir log/
 ```
 
-### Updated for rebuttal (Jan/28/2022)： 
-#### User study
-We create a [user study](https://wj.qq.com/s2/9665341/19ed) as suggested. A more complex user study will be added in the revised version.
-
-The results are collected here: [user study details](user_study_state.csv)
-
-#### Code installation
-
-we added  detailed [conda env file](env.yml) and collected detail [system information](system_info.txt) to help the installation.
-
-A more detailed docker and Google Colab demo will be provided.
+## Acknowledgement
+Our implementation is mainly based on the [diffvg](https://github.com/BachiLi/diffvg) codebase. We gratefully thank the authors for their wonderful works.
 
 
-<div align="center">
-    <div style="width=150px; height=20px;display:inline;">Input Raster Image</div>
-    <div style="width=150px; height=20px;display:inline;">DiffVG (4 paths)</div>
-    <div style="width=150px; height=20px;display:inline;">DiffVG (256 paths)</div>
-    <div style="width=150px; height=20px;display:inline;">LIVE (4 paths)</div>
-</div>
-
-<div align="center">
-  <img src="example.png" width="650px" height="300px">
-</div>
-LIVE is able to explicitly presents a Layer-wise representation for simple images. 
-
-## Installation
-```bash
-pip3 install torch torchvision
-pip install svgwrite
-pip install svgpathtools
-pip install cssutils
-pip install numba
-pip install torch-tools
-pip install visdom
-pip install scikit-fmm
-pip install opencv-python==4.5.4.60 
-pip install easydict
-pip install scikit-fmm
-
-```
-Next, please refer DiffVG to install [pydiffvg](https://github.com/BachiLi/diffvg)
+## LICENSE
+LIVE is under the Apache-2.0 license. Please contact the authors for commercial use.
 
 
-## Run
-```bash
-python main.py --config config/all.yaml --experiment experiment_8x1 --signature demo1 --target data/demo1.png
-```
-Please modify the config files to change configurations.
+## Reference
+@inproceedings{xu2022live,
+        title={Towards Layer-wise Image Vectorization},
+        author={Ma, Xu and Zhou, Yuqian and Xu, Xingqian and Sun, Bin and Filev, Valerii and  Orlov, Nikita and Fu, Yun and Shi, Humphrey},
+        booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+        year={2022}
+    }
