@@ -15,7 +15,7 @@ A more detailed docker and Google Colab demo will be provided.
 
 <div align="center">
     <img src="images/diffvg4-smile.gif" width="200px" height="200px">
-    <img src="images/out_diffvg4.png" width="200px" height="200px">
+    <img src="images/out_diffvg4.gif" width="200px" height="200px">
     <img src="images/live-smile.gif" width="200px" height="200px">
 </div>
 
