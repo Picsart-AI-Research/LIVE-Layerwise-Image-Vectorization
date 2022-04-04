@@ -16,7 +16,7 @@ Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
 
 <br><br>
 <div align="center">
-    <img src="images/teaser.png" width="70%">
+    <img src="images/teaser.png" width="90%">
 </div>
 We present a new method to progressively generate a SVG that fits the raster image in a layer-wise fashion. Given an arbitrary input image, LIVE recursively learns the visual concepts by adding new optimizable closed bezier paths and optimizing all these paths.
 <br><br><br><br><br><br>
