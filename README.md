@@ -19,7 +19,7 @@ Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
     <img src="images/teaser.png" width="90%">
 </div>
 We present a new method to progressively generate a SVG that fits the raster image in a layer-wise fashion. Given an arbitrary input image, LIVE recursively learns the visual concepts by adding new optimizable closed bezier paths and optimizing all these paths.
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 <div align="center">
     <img src="images/smile.png" width="150px" height="150px" alt="Elephant at sunset">
@@ -27,6 +27,7 @@ We present a new method to progressively generate a SVG that fits the raster ima
     <img src="images/out_diffvg256.gif" width="150px" height="150px" alt="Elephant at sunset">
     <img src="images/live-smile.gif" width="150px" height="150px" alt="Elephant at sunset">
 </div>
+From left to right are (1)input raster image,  (2)output SVGs of DiffVG(path=5), (3)output SVGs of DiffVG(path=256), and (4)output of our LIVE(path=4).
 
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
