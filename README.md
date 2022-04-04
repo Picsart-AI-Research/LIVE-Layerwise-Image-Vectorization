@@ -20,10 +20,10 @@ A more detailed docker and Google Colab demo will be provided.
     <img src="images/live-smile.gif" width="150px" height="150px" alt="Elephant at sunset">
 </div>
 <div align="center">
-    <div class="width=150px; height=20px;display:inline;">Input Raster Image</div>
-    <div class="width=150px; height=20px;display:inline;">DiffVG (4 paths)</div>
-    <div class="width=150px; height=20px;display:inline;">DiffVG (256 paths)</div>
-    <div class="width=150px; height=20px;display:inline;">LIVE (4 paths)</div>
+    <div style="width=150px; height=20px;display:inline;">Input Raster Image</div>
+    <div style="width=150px; height=20px;display:inline;">DiffVG (4 paths)</div>
+    <div style="width=150px; height=20px;display:inline;">DiffVG (256 paths)</div>
+    <div style="width=150px; height=20px;display:inline;">LIVE (4 paths)</div>
 </div>
 
 <div align="center">
