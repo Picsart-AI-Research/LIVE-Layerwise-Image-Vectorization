@@ -14,6 +14,7 @@
 [[HuggingFace Space]()], 
 Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
 
+<br><br>
 <div align="center">
     <img src="images/teaser.png" width="70%">
 </div>
