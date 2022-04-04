@@ -14,8 +14,9 @@ we added  detailed [conda env file](env.yml) and collected detail [system inform
 A more detailed docker and Google Colab demo will be provided.
 
 <div align="center">
-    <img src="images/diffvg4-smile.gif" width="300px" height="300px">
-    <img src="images/live-smile.gif" width="300px" height="300px">
+    <img src="images/diffvg4-smile.gif" width="200px" height="200px">
+    <img src="images/out.gif" width="200px" height="200px">
+    <img src="images/live-smile.gif" width="200px" height="200px">
 </div>
 
 <div align="center">
