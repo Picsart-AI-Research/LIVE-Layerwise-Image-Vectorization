@@ -36,6 +36,20 @@ We suggest users to use the conda for creating new python environment.
 
 **Requirement**: 5.0<GCC<6.0;  nvcc >10.0.
 
+```bash
+conda create -n live python=3.7
+conda install -y pytorch torchvision -c pytorch
+conda install -y numpy scikit-image
+conda install -y -c anaconda cmake
+conda install -y -c conda-forge ffmpeg
+pip install svgwrite svgpathtools cssutils numba torch-tools scikit-fmm easydict visdom
+pip install opencv-python==4.5.4.60
+
+cd DiffVG
+git submodule update --init --recursive
+python setup.py install
+```
+
 
 ### Updated for rebuttal (Jan/28/2022)： 
 #### User study
