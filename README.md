@@ -72,7 +72,8 @@ LIVE is under the Apache-2.0 license. Please contact the authors for commercial 
 
 
 ## Reference
-@inproceedings{xu2022live,
+
+    @inproceedings{xu2022live,
         title={Towards Layer-wise Image Vectorization},
         author={Ma, Xu and Zhou, Yuqian and Xu, Xingqian and Sun, Bin and Filev, Valerii and  Orlov, Nikita and Fu, Yun and Shi, Humphrey},
         booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
