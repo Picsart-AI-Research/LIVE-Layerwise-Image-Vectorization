@@ -31,23 +31,25 @@ From left to right are (1)<b>input raster image**</b>,  (2)output SVGs of <b>Dif
 With only 5 paths, DiffVG cannot reconstruct the input image. When increasing the path number to 256 (which is significantly larger than the number of necessary paths), DiffVG is able to reconstruct the input. 
 Different, our LIVE is able to reconstruct the input smimling face by only 5 paths, and shows a layer-wise representation.
 
-#### Installation
+## Installation
 We suggest users to use the conda for creating new python environment. 
 
 **Requirement**: 5.0<GCC<6.0;  nvcc >10.0.
 
 ```bash
+git clone git@github.com:ma-xu/LIVE.git
 conda create -n live python=3.7
 conda install -y pytorch torchvision -c pytorch
 conda install -y numpy scikit-image
 conda install -y -c anaconda cmake
 conda install -y -c conda-forge ffmpeg
 pip install svgwrite svgpathtools cssutils numba torch-tools scikit-fmm easydict visdom
-pip install opencv-python==4.5.4.60
+pip install opencv-python==4.5.4.60  # please install this version to avoid segmentation fault.
 
 cd DiffVG
 git submodule update --init --recursive
 python setup.py install
+cd ..
 ```
 
 
