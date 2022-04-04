@@ -27,7 +27,7 @@ We present a new method to progressively generate a SVG that fits the raster ima
     <img src="images/out_diffvg_256.gif" width="150px" height="150px" alt="Elephant at sunset">
     <img src="images/out_live.gif" width="150px" height="150px" alt="Elephant at sunset">
 </div>
-From left to right are (1)<b>input raster image**</b>,  (2)output SVGs of <b>DiffVG (path=5)</b>, (3)output SVGs of <b>DiffVG (path=256)</b>, and (4)output of our <b>LIVE (path=4)</b>.
+From left to right are (1)<b>input raster image</b>,  (2)output SVGs of <b>DiffVG (path=5)</b>, (3)output SVGs of <b>DiffVG (path=256)</b>, and (4)output of our <b>LIVE (path=4)</b>.
 With only 5 paths, DiffVG cannot reconstruct the input image. When increasing the path number to 256 (which is significantly larger than the number of necessary paths), DiffVG is able to reconstruct the input. 
 Differently, our LIVE is able to reconstruct the input smiling face by only 5 paths, and shows a compact layer-wise representation.
 
