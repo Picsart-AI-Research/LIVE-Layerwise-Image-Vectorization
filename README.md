@@ -38,7 +38,9 @@ We suggest users to use the conda for creating new python environment.
 
 ```bash
 git clone git@github.com:ma-xu/LIVE.git
+cd LIVE
 conda create -n live python=3.7
+conda activate live
 conda install -y pytorch torchvision -c pytorch
 conda install -y numpy scikit-image
 conda install -y -c anaconda cmake

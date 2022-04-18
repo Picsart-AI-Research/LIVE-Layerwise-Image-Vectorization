@@ -75,12 +75,12 @@ if torch_spec is not None:
     import torch
     if torch.cuda.is_available():
         build_with_cuda = True
-# if tf_spec is not None and sys.platform != 'win32':
-#     packages.append('pydiffvg_tensorflow')
-#     if not build_with_cuda:
-#         import tensorflow as tf
-#         if tf.test.is_gpu_available(cuda_only=True, min_cuda_compute_capability=None):
-#             build_with_cuda = True
+if tf_spec is not None and sys.platform != 'win32':
+    packages.append('pydiffvg_tensorflow')
+    if not build_with_cuda:
+        import tensorflow as tf
+        if tf.test.is_gpu_available(cuda_only=True, min_cuda_compute_capability=None):
+            build_with_cuda = True
 if len(packages) == 0:
     print('Error: PyTorch or Tensorflow must be installed. For Windows platform only PyTorch is supported.')
     exit()
