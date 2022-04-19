@@ -1,0 +1,1072 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.880 --> 00:00:03.350 align:start position:0%
+ 
+hello<00:00:01.280><c> everyone</c><00:00:02.080><c> in</c><00:00:02.240><c> this</c><00:00:02.399><c> video</c><00:00:03.040><c> we</c><00:00:03.280><c> are</c>
+
+00:00:03.350 --> 00:00:03.360 align:start position:0%
+hello everyone in this video we are
+ 
+
+00:00:03.360 --> 00:00:05.590 align:start position:0%
+hello everyone in this video we are
+going<00:00:03.600><c> to</c><00:00:03.760><c> present</c><00:00:04.160><c> our</c><00:00:04.319><c> paper</c><00:00:05.120><c> walk</c><00:00:05.440><c> in</c><00:00:05.520><c> the</c>
+
+00:00:05.590 --> 00:00:05.600 align:start position:0%
+going to present our paper walk in the
+ 
+
+00:00:05.600 --> 00:00:07.909 align:start position:0%
+going to present our paper walk in the
+cloud<00:00:06.319><c> learning</c><00:00:06.720><c> curves</c><00:00:07.040><c> for</c><00:00:07.279><c> point</c><00:00:07.520><c> cloud</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+cloud learning curves for point cloud
+ 
+
+00:00:07.919 --> 00:00:10.870 align:start position:0%
+cloud learning curves for point cloud
+shape<00:00:08.240><c> analysis</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+ 
+ 
+
+00:00:10.880 --> 00:00:12.789 align:start position:0%
+ 
+in<00:00:11.040><c> the</c><00:00:11.120><c> first</c><00:00:11.440><c> part</c><00:00:11.679><c> of</c><00:00:11.759><c> this</c><00:00:12.000><c> video</c><00:00:12.559><c> we</c>
+
+00:00:12.789 --> 00:00:12.799 align:start position:0%
+in the first part of this video we
+ 
+
+00:00:12.799 --> 00:00:14.629 align:start position:0%
+in the first part of this video we
+demonstrate<00:00:13.360><c> an</c><00:00:13.519><c> overview</c><00:00:14.000><c> of</c><00:00:14.080><c> the</c><00:00:14.160><c> proposed</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+demonstrate an overview of the proposed
+ 
+
+00:00:14.639 --> 00:00:16.230 align:start position:0%
+demonstrate an overview of the proposed
+approach<00:00:15.120><c> and</c><00:00:15.200><c> discuss</c><00:00:15.519><c> why</c><00:00:15.759><c> existing</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+approach and discuss why existing
+ 
+
+00:00:16.240 --> 00:00:18.390 align:start position:0%
+approach and discuss why existing
+methods<00:00:16.640><c> cannot</c><00:00:17.039><c> suffice</c><00:00:17.680><c> and</c><00:00:17.920><c> hence</c><00:00:18.160><c> our</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+methods cannot suffice and hence our
+ 
+
+00:00:18.400 --> 00:00:20.150 align:start position:0%
+methods cannot suffice and hence our
+method<00:00:18.800><c> as</c><00:00:18.880><c> desired</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+method as desired
+ 
+
+00:00:20.160 --> 00:00:22.390 align:start position:0%
+method as desired
+then<00:00:20.640><c> we</c><00:00:20.800><c> present</c><00:00:21.279><c> formal</c><00:00:21.600><c> definitions</c><00:00:22.240><c> of</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+then we present formal definitions of
+ 
+
+00:00:22.400 --> 00:00:24.310 align:start position:0%
+then we present formal definitions of
+the<00:00:22.480><c> proposed</c><00:00:23.039><c> terminologies</c><00:00:23.920><c> and</c><00:00:24.080><c> brief</c>
+
+00:00:24.310 --> 00:00:24.320 align:start position:0%
+the proposed terminologies and brief
+ 
+
+00:00:24.320 --> 00:00:26.550 align:start position:0%
+the proposed terminologies and brief
+workflows<00:00:24.880><c> of</c><00:00:25.039><c> our</c><00:00:25.199><c> algorithms</c>
+
+00:00:26.550 --> 00:00:26.560 align:start position:0%
+workflows of our algorithms
+ 
+
+00:00:26.560 --> 00:00:28.790 align:start position:0%
+workflows of our algorithms
+finally<00:00:27.199><c> we</c><00:00:27.439><c> wrap</c><00:00:27.680><c> it</c><00:00:27.840><c> up</c><00:00:28.000><c> by</c><00:00:28.160><c> demonstrating</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+finally we wrap it up by demonstrating
+ 
+
+00:00:28.800 --> 00:00:30.870 align:start position:0%
+finally we wrap it up by demonstrating
+the<00:00:28.960><c> superiority</c><00:00:29.760><c> of</c><00:00:29.920><c> our</c><00:00:30.080><c> method</c><00:00:30.480><c> on</c><00:00:30.640><c> three</c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+the superiority of our method on three
+ 
+
+00:00:30.880 --> 00:00:35.030 align:start position:0%
+the superiority of our method on three
+fundamental<00:00:31.519><c> tasks</c><00:00:31.920><c> with</c><00:00:32.160><c> further</c><00:00:32.480><c> analysis</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+fundamental tasks with further analysis
+ 
+
+00:00:35.040 --> 00:00:37.030 align:start position:0%
+fundamental tasks with further analysis
+3d<00:00:35.520><c> vision</c><00:00:35.920><c> tasks</c><00:00:36.320><c> are</c><00:00:36.399><c> one</c><00:00:36.559><c> of</c><00:00:36.640><c> the</c><00:00:36.719><c> most</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+3d vision tasks are one of the most
+ 
+
+00:00:37.040 --> 00:00:38.790 align:start position:0%
+3d vision tasks are one of the most
+active<00:00:37.360><c> tasks</c><00:00:37.840><c> in</c><00:00:37.920><c> the</c><00:00:38.000><c> computer</c><00:00:38.480><c> vision</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+active tasks in the computer vision
+ 
+
+00:00:38.800 --> 00:00:40.069 align:start position:0%
+active tasks in the computer vision
+community
+
+00:00:40.069 --> 00:00:40.079 align:start position:0%
+community
+ 
+
+00:00:40.079 --> 00:00:42.150 align:start position:0%
+community
+in<00:00:40.160><c> the</c><00:00:40.320><c> recent</c><00:00:40.719><c> years</c><00:00:41.360><c> many</c><00:00:41.680><c> efforts</c><00:00:42.079><c> have</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+in the recent years many efforts have
+ 
+
+00:00:42.160 --> 00:00:44.470 align:start position:0%
+in the recent years many efforts have
+been<00:00:42.320><c> made</c><00:00:42.559><c> for</c><00:00:42.719><c> analyzing</c><00:00:43.360><c> all</c><00:00:43.520><c> kinds</c><00:00:43.840><c> of</c><00:00:44.079><c> 3d</c>
+
+00:00:44.470 --> 00:00:44.480 align:start position:0%
+been made for analyzing all kinds of 3d
+ 
+
+00:00:44.480 --> 00:00:47.830 align:start position:0%
+been made for analyzing all kinds of 3d
+visual<00:00:44.879><c> signals</c><00:00:45.600><c> especially</c><00:00:46.320><c> point</c><00:00:46.559><c> clouds</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+visual signals especially point clouds
+ 
+
+00:00:47.840 --> 00:00:49.830 align:start position:0%
+visual signals especially point clouds
+differing<00:00:48.239><c> from</c><00:00:48.399><c> conventional</c><00:00:49.039><c> 2d</c><00:00:49.520><c> vision</c>
+
+00:00:49.830 --> 00:00:49.840 align:start position:0%
+differing from conventional 2d vision
+ 
+
+00:00:49.840 --> 00:00:52.069 align:start position:0%
+differing from conventional 2d vision
+tasks<00:00:50.559><c> point</c><00:00:50.879><c> clouds</c><00:00:51.280><c> are</c><00:00:51.440><c> usually</c><00:00:51.920><c> in</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+tasks point clouds are usually in
+ 
+
+00:00:52.079 --> 00:00:54.950 align:start position:0%
+tasks point clouds are usually in
+irregular<00:00:52.640><c> and</c><00:00:52.800><c> unordered</c><00:00:53.280><c> forms</c><00:00:54.079><c> hence</c><00:00:54.719><c> the</c>
+
+00:00:54.950 --> 00:00:54.960 align:start position:0%
+irregular and unordered forms hence the
+ 
+
+00:00:54.960 --> 00:00:57.110 align:start position:0%
+irregular and unordered forms hence the
+effective<00:00:55.440><c> designs</c><00:00:55.920><c> of</c><00:00:56.000><c> feature</c><00:00:56.399><c> aggregation</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+effective designs of feature aggregation
+ 
+
+00:00:57.120 --> 00:00:58.950 align:start position:0%
+effective designs of feature aggregation
+and<00:00:57.199><c> message</c><00:00:57.680><c> passing</c><00:00:58.000><c> schemes</c><00:00:58.399><c> among</c><00:00:58.719><c> point</c>
+
+00:00:58.950 --> 00:00:58.960 align:start position:0%
+and message passing schemes among point
+ 
+
+00:00:58.960 --> 00:01:02.389 align:start position:0%
+and message passing schemes among point
+clouds<00:00:59.440><c> still</c><00:00:59.680><c> remains</c><00:01:00.160><c> challenging</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+clouds still remains challenging
+ 
+
+00:01:02.399 --> 00:01:04.549 align:start position:0%
+clouds still remains challenging
+existing<00:01:02.960><c> feature</c><00:01:03.359><c> aggregation</c><00:01:04.000><c> operators</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+existing feature aggregation operators
+ 
+
+00:01:04.559 --> 00:01:06.550 align:start position:0%
+existing feature aggregation operators
+could<00:01:04.720><c> be</c><00:01:04.879><c> roughly</c><00:01:05.360><c> classified</c><00:01:06.000><c> into</c><00:01:06.240><c> three</c>
+
+00:01:06.550 --> 00:01:06.560 align:start position:0%
+could be roughly classified into three
+ 
+
+00:01:06.560 --> 00:01:07.910 align:start position:0%
+could be roughly classified into three
+categories
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+categories
+ 
+
+00:01:07.920 --> 00:01:10.390 align:start position:0%
+categories
+in<00:01:08.080><c> this</c><00:01:08.320><c> paper</c><00:01:08.799><c> we</c><00:01:09.040><c> proposed</c><00:01:09.520><c> a</c><00:01:09.600><c> new</c><00:01:09.840><c> paradigm</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+in this paper we proposed a new paradigm
+ 
+
+00:01:10.400 --> 00:01:12.630 align:start position:0%
+in this paper we proposed a new paradigm
+for<00:01:10.560><c> point</c><00:01:10.880><c> cloud</c><00:01:11.200><c> feature</c><00:01:11.600><c> aggregation</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+for point cloud feature aggregation
+ 
+
+00:01:12.640 --> 00:01:15.030 align:start position:0%
+for point cloud feature aggregation
+namely<00:01:13.040><c> curve</c><00:01:13.360><c> aggregation</c><00:01:14.400><c> that</c><00:01:14.640><c> first</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+namely curve aggregation that first
+ 
+
+00:01:15.040 --> 00:01:16.870 align:start position:0%
+namely curve aggregation that first
+groups<00:01:15.360><c> a</c><00:01:15.439><c> continuous</c><00:01:16.000><c> set</c><00:01:16.240><c> of</c><00:01:16.320><c> connected</c>
+
+00:01:16.870 --> 00:01:16.880 align:start position:0%
+groups a continuous set of connected
+ 
+
+00:01:16.880 --> 00:01:18.630 align:start position:0%
+groups a continuous set of connected
+points<00:01:17.200><c> to</c><00:01:17.280><c> form</c><00:01:17.520><c> a</c><00:01:17.680><c> curve</c><00:01:18.240><c> and</c><00:01:18.400><c> then</c>
+
+00:01:18.630 --> 00:01:18.640 align:start position:0%
+points to form a curve and then
+ 
+
+00:01:18.640 --> 00:01:20.469 align:start position:0%
+points to form a curve and then
+aggregate<00:01:19.200><c> the</c><00:01:19.360><c> grouped</c><00:01:19.680><c> curve</c><00:01:20.080><c> features</c>
+
+00:01:20.469 --> 00:01:20.479 align:start position:0%
+aggregate the grouped curve features
+ 
+
+00:01:20.479 --> 00:01:22.230 align:start position:0%
+aggregate the grouped curve features
+back<00:01:20.720><c> to</c><00:01:20.960><c> each</c><00:01:21.200><c> point</c>
+
+00:01:22.230 --> 00:01:22.240 align:start position:0%
+back to each point
+ 
+
+00:01:22.240 --> 00:01:23.910 align:start position:0%
+back to each point
+but<00:01:22.479><c> why</c><00:01:22.720><c> existing</c><00:01:23.200><c> local</c><00:01:23.600><c> feature</c>
+
+00:01:23.910 --> 00:01:23.920 align:start position:0%
+but why existing local feature
+ 
+
+00:01:23.920 --> 00:01:26.230 align:start position:0%
+but why existing local feature
+extractors<00:01:24.560><c> cannot</c><00:01:24.960><c> capture</c><00:01:25.360><c> good</c><00:01:25.600><c> geometric</c>
+
+00:01:26.230 --> 00:01:26.240 align:start position:0%
+extractors cannot capture good geometric
+ 
+
+00:01:26.240 --> 00:01:28.550 align:start position:0%
+extractors cannot capture good geometric
+patterns
+
+00:01:28.550 --> 00:01:28.560 align:start position:0%
+patterns
+ 
+
+00:01:28.560 --> 00:01:30.310 align:start position:0%
+patterns
+let<00:01:28.799><c> us</c><00:01:28.960><c> first</c><00:01:29.200><c> have</c><00:01:29.439><c> a</c><00:01:29.520><c> closed</c><00:01:29.840><c> look</c><00:01:30.079><c> at</c><00:01:30.159><c> the</c>
+
+00:01:30.310 --> 00:01:30.320 align:start position:0%
+let us first have a closed look at the
+ 
+
+00:01:30.320 --> 00:01:32.710 align:start position:0%
+let us first have a closed look at the
+local<00:01:30.640><c> aggregation</c><00:01:31.360><c> paradigm</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+local aggregation paradigm
+ 
+
+00:01:32.720 --> 00:01:34.710 align:start position:0%
+local aggregation paradigm
+although<00:01:33.119><c> such</c><00:01:33.439><c> formulation</c><00:01:34.079><c> is</c><00:01:34.240><c> intuitive</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+although such formulation is intuitive
+ 
+
+00:01:34.720 --> 00:01:37.030 align:start position:0%
+although such formulation is intuitive
+and<00:01:34.880><c> efficient</c><00:01:35.680><c> we</c><00:01:35.920><c> argue</c><00:01:36.240><c> that</c><00:01:36.479><c> seeing</c><00:01:36.799><c> only</c>
+
+00:01:37.030 --> 00:01:37.040 align:start position:0%
+and efficient we argue that seeing only
+ 
+
+00:01:37.040 --> 00:01:39.270 align:start position:0%
+and efficient we argue that seeing only
+locally<00:01:37.520><c> located</c><00:01:38.079><c> points</c><00:01:38.400><c> can't</c><00:01:38.720><c> model</c><00:01:39.040><c> good</c>
+
+00:01:39.270 --> 00:01:39.280 align:start position:0%
+locally located points can't model good
+ 
+
+00:01:39.280 --> 00:01:41.670 align:start position:0%
+locally located points can't model good
+object<00:01:39.680><c> geometric</c><00:01:40.320><c> traits</c><00:01:40.960><c> which</c><00:01:41.280><c> require</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+object geometric traits which require
+ 
+
+00:01:41.680 --> 00:01:45.350 align:start position:0%
+object geometric traits which require
+relation<00:01:42.159><c> modeling</c><00:01:42.640><c> in</c><00:01:42.799><c> a</c><00:01:42.880><c> longer</c><00:01:43.280><c> range</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+relation modeling in a longer range
+ 
+
+00:01:45.360 --> 00:01:47.670 align:start position:0%
+relation modeling in a longer range
+let<00:01:45.520><c> us</c><00:01:45.680><c> consider</c><00:01:46.159><c> a</c><00:01:46.320><c> simple</c><00:01:46.640><c> 2d</c><00:01:47.119><c> point</c><00:01:47.360><c> cloud</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+let us consider a simple 2d point cloud
+ 
+
+00:01:47.680 --> 00:01:49.429 align:start position:0%
+let us consider a simple 2d point cloud
+plane<00:01:48.000><c> as</c><00:01:48.079><c> an</c><00:01:48.240><c> example</c>
+
+00:01:49.429 --> 00:01:49.439 align:start position:0%
+plane as an example
+ 
+
+00:01:49.439 --> 00:01:50.950 align:start position:0%
+plane as an example
+point<00:01:49.840><c> a</c><00:01:50.320><c> b</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+point a b
+ 
+
+00:01:50.960 --> 00:01:52.950 align:start position:0%
+point a b
+c<00:01:51.200><c> are</c><00:01:51.360><c> three</c><00:01:51.680><c> key</c><00:01:51.920><c> points</c><00:01:52.479><c> and</c><00:01:52.640><c> the</c><00:01:52.720><c> blue</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+c are three key points and the blue
+ 
+
+00:01:52.960 --> 00:01:55.429 align:start position:0%
+c are three key points and the blue
+points<00:01:53.280><c> are</c><00:01:53.439><c> their</c><00:01:53.600><c> k</c><00:01:53.840><c> n</c><00:01:54.159><c> neighbors</c>
+
+00:01:55.429 --> 00:01:55.439 align:start position:0%
+points are their k n neighbors
+ 
+
+00:01:55.439 --> 00:01:57.749 align:start position:0%
+points are their k n neighbors
+obviously<00:01:56.240><c> point</c><00:01:56.479><c> a</c><00:01:56.719><c> and</c><00:01:56.799><c> b</c><00:01:57.040><c> will</c><00:01:57.200><c> have</c><00:01:57.360><c> almost</c>
+
+00:01:57.749 --> 00:01:57.759 align:start position:0%
+obviously point a and b will have almost
+ 
+
+00:01:57.759 --> 00:01:59.749 align:start position:0%
+obviously point a and b will have almost
+identical<00:01:58.320><c> encodings</c><00:01:58.880><c> if</c><00:01:59.040><c> using</c><00:01:59.360><c> local</c>
+
+00:01:59.749 --> 00:01:59.759 align:start position:0%
+identical encodings if using local
+ 
+
+00:01:59.759 --> 00:02:01.270 align:start position:0%
+identical encodings if using local
+aggregations
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+aggregations
+ 
+
+00:02:01.280 --> 00:02:02.870 align:start position:0%
+aggregations
+only<00:02:01.520><c> the</c><00:02:01.680><c> points</c><00:02:02.000><c> that</c><00:02:02.159><c> are</c><00:02:02.320><c> in</c><00:02:02.479><c> extreme</c>
+
+00:02:02.870 --> 00:02:02.880 align:start position:0%
+only the points that are in extreme
+ 
+
+00:02:02.880 --> 00:02:05.749 align:start position:0%
+only the points that are in extreme
+geometric<00:02:03.439><c> positions</c><00:02:04.320><c> such</c><00:02:04.560><c> as</c><00:02:04.799><c> point</c><00:02:05.119><c> c</c><00:02:05.600><c> are</c>
+
+00:02:05.749 --> 00:02:05.759 align:start position:0%
+geometric positions such as point c are
+ 
+
+00:02:05.759 --> 00:02:08.550 align:start position:0%
+geometric positions such as point c are
+able<00:02:06.000><c> to</c><00:02:06.159><c> encode</c><00:02:06.640><c> different</c><00:02:07.040><c> features</c><00:02:08.239><c> given</c>
+
+00:02:08.550 --> 00:02:08.560 align:start position:0%
+able to encode different features given
+ 
+
+00:02:08.560 --> 00:02:10.869 align:start position:0%
+able to encode different features given
+such<00:02:08.879><c> observations</c><00:02:09.840><c> we</c><00:02:10.080><c> claim</c><00:02:10.319><c> that</c><00:02:10.560><c> local</c>
+
+00:02:10.869 --> 00:02:10.879 align:start position:0%
+such observations we claim that local
+ 
+
+00:02:10.879 --> 00:02:12.630 align:start position:0%
+such observations we claim that local
+feature<00:02:11.280><c> aggregation</c><00:02:11.920><c> based</c><00:02:12.239><c> neural</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+feature aggregation based neural
+ 
+
+00:02:12.640 --> 00:02:14.630 align:start position:0%
+feature aggregation based neural
+networks<00:02:13.120><c> are</c><00:02:13.200><c> likely</c><00:02:13.599><c> to</c><00:02:13.680><c> have</c><00:02:13.920><c> very</c><00:02:14.160><c> similar</c>
+
+00:02:14.630 --> 00:02:14.640 align:start position:0%
+networks are likely to have very similar
+ 
+
+00:02:14.640 --> 00:02:16.790 align:start position:0%
+networks are likely to have very similar
+point<00:02:14.879><c> features</c><00:02:15.599><c> especially</c><00:02:16.239><c> at</c><00:02:16.400><c> shallow</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+point features especially at shallow
+ 
+
+00:02:16.800 --> 00:02:17.990 align:start position:0%
+point features especially at shallow
+layers
+
+00:02:17.990 --> 00:02:18.000 align:start position:0%
+layers
+ 
+
+00:02:18.000 --> 00:02:19.830 align:start position:0%
+layers
+here<00:02:18.239><c> we</c><00:02:18.400><c> visualize</c><00:02:19.040><c> feature</c><00:02:19.360><c> maps</c><00:02:19.680><c> of</c><00:02:19.760><c> a</c>
+
+00:02:19.830 --> 00:02:19.840 align:start position:0%
+here we visualize feature maps of a
+ 
+
+00:02:19.840 --> 00:02:22.869 align:start position:0%
+here we visualize feature maps of a
+chair<00:02:20.160><c> object</c><00:02:20.640><c> extracted</c><00:02:21.200><c> by</c><00:02:21.440><c> dgcnn</c><00:02:22.720><c> and</c>
+
+00:02:22.869 --> 00:02:22.879 align:start position:0%
+chair object extracted by dgcnn and
+ 
+
+00:02:22.879 --> 00:02:25.350 align:start position:0%
+chair object extracted by dgcnn and
+found<00:02:23.120><c> that</c><00:02:23.280><c> the</c><00:02:23.520><c> chairs</c><00:02:24.080><c> back</c><00:02:24.560><c> and</c><00:02:24.800><c> seat</c>
+
+00:02:25.350 --> 00:02:25.360 align:start position:0%
+found that the chairs back and seat
+ 
+
+00:02:25.360 --> 00:02:27.270 align:start position:0%
+found that the chairs back and seat
+indeed<00:02:25.760><c> have</c><00:02:25.920><c> very</c><00:02:26.239><c> closed</c><00:02:26.640><c> features</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+indeed have very closed features
+ 
+
+00:02:27.280 --> 00:02:30.070 align:start position:0%
+indeed have very closed features
+regardless<00:02:27.840><c> of</c><00:02:28.000><c> pooling</c><00:02:28.319><c> scheme</c>
+
+00:02:30.070 --> 00:02:30.080 align:start position:0%
+regardless of pooling scheme
+ 
+
+00:02:30.080 --> 00:02:33.990 align:start position:0%
+regardless of pooling scheme
+so<00:02:30.560><c> what</c><00:02:30.800><c> is</c><00:02:30.959><c> a</c><00:02:31.040><c> curve</c><00:02:31.440><c> exactly</c>
+
+00:02:33.990 --> 00:02:34.000 align:start position:0%
+ 
+ 
+
+00:02:34.000 --> 00:02:36.309 align:start position:0%
+ 
+generally<00:02:34.560><c> speaking</c><00:02:35.200><c> a</c><00:02:35.360><c> curve</c><00:02:35.680><c> is</c><00:02:35.760><c> an</c><00:02:36.000><c> ordered</c>
+
+00:02:36.309 --> 00:02:36.319 align:start position:0%
+generally speaking a curve is an ordered
+ 
+
+00:02:36.319 --> 00:02:38.070 align:start position:0%
+generally speaking a curve is an ordered
+connection<00:02:36.800><c> of</c><00:02:36.959><c> adjacent</c><00:02:37.440><c> points</c><00:02:37.760><c> that</c><00:02:37.920><c> can</c>
+
+00:02:38.070 --> 00:02:38.080 align:start position:0%
+connection of adjacent points that can
+ 
+
+00:02:38.080 --> 00:02:40.550 align:start position:0%
+connection of adjacent points that can
+be<00:02:38.239><c> grouped</c><00:02:38.480><c> through</c><00:02:38.720><c> a</c><00:02:38.800><c> given</c><00:02:39.120><c> walk</c><00:02:39.360><c> policy</c>
+
+00:02:40.550 --> 00:02:40.560 align:start position:0%
+be grouped through a given walk policy
+ 
+
+00:02:40.560 --> 00:02:42.869 align:start position:0%
+be grouped through a given walk policy
+consider<00:02:41.040><c> the</c><00:02:41.200><c> previous</c><00:02:41.680><c> example</c><00:02:42.160><c> again</c><00:02:42.720><c> a</c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+consider the previous example again a
+ 
+
+00:02:42.879 --> 00:02:45.030 align:start position:0%
+consider the previous example again a
+possible<00:02:43.440><c> curve</c><00:02:43.760><c> could</c><00:02:43.920><c> span</c><00:02:44.239><c> over</c><00:02:44.480><c> all</c><00:02:44.720><c> point</c>
+
+00:02:45.030 --> 00:02:45.040 align:start position:0%
+possible curve could span over all point
+ 
+
+00:02:45.040 --> 00:02:47.670 align:start position:0%
+possible curve could span over all point
+a<00:02:45.519><c> b</c><00:02:45.760><c> and</c><00:02:45.920><c> c</c><00:02:46.160><c> that</c><00:02:46.319><c> carries</c><00:02:46.720><c> much</c><00:02:46.959><c> longer</c><00:02:47.360><c> range</c>
+
+00:02:47.670 --> 00:02:47.680 align:start position:0%
+a b and c that carries much longer range
+ 
+
+00:02:47.680 --> 00:02:49.350 align:start position:0%
+a b and c that carries much longer range
+information
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+information
+ 
+
+00:02:49.360 --> 00:02:51.270 align:start position:0%
+information
+we<00:02:49.519><c> now</c><00:02:49.760><c> present</c><00:02:50.160><c> the</c><00:02:50.319><c> strategy</c><00:02:50.800><c> to</c><00:02:51.040><c> group</c>
+
+00:02:51.270 --> 00:02:51.280 align:start position:0%
+we now present the strategy to group
+ 
+
+00:02:51.280 --> 00:02:53.110 align:start position:0%
+we now present the strategy to group
+curves<00:02:51.680><c> in</c><00:02:51.760><c> the</c><00:02:51.840><c> semantic</c><00:02:52.400><c> space</c><00:02:52.800><c> of</c><00:02:52.879><c> any</c>
+
+00:02:53.110 --> 00:02:53.120 align:start position:0%
+curves in the semantic space of any
+ 
+
+00:02:53.120 --> 00:02:55.509 align:start position:0%
+curves in the semantic space of any
+given<00:02:53.440><c> point</c><00:02:53.760><c> clouds</c>
+
+00:02:55.509 --> 00:02:55.519 align:start position:0%
+given point clouds
+ 
+
+00:02:55.519 --> 00:02:57.030 align:start position:0%
+given point clouds
+here<00:02:55.760><c> are</c><00:02:55.840><c> the</c><00:02:56.000><c> four</c><00:02:56.239><c> parameters</c><00:02:56.879><c> and</c>
+
+00:02:57.030 --> 00:02:57.040 align:start position:0%
+here are the four parameters and
+ 
+
+00:02:57.040 --> 00:02:58.710 align:start position:0%
+here are the four parameters and
+functions<00:02:57.519><c> that</c><00:02:57.680><c> need</c><00:02:57.840><c> to</c><00:02:57.920><c> be</c><00:02:58.080><c> defined</c><00:02:58.560><c> in</c>
+
+00:02:58.710 --> 00:02:58.720 align:start position:0%
+functions that need to be defined in
+ 
+
+00:02:58.720 --> 00:03:00.869 align:start position:0%
+functions that need to be defined in
+advance<00:02:59.440><c> before</c><00:02:59.760><c> we</c><00:02:59.920><c> can</c><00:03:00.159><c> articulate</c><00:03:00.800><c> the</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+advance before we can articulate the
+ 
+
+00:03:00.879 --> 00:03:02.830 align:start position:0%
+advance before we can articulate the
+naive<00:03:01.360><c> curve</c><00:03:01.680><c> grouping</c>
+
+00:03:02.830 --> 00:03:02.840 align:start position:0%
+naive curve grouping
+ 
+
+00:03:02.840 --> 00:03:05.670 align:start position:0%
+naive curve grouping
+process<00:03:03.920><c> however</c><00:03:04.640><c> there</c><00:03:04.800><c> are</c><00:03:04.959><c> several</c><00:03:05.360><c> major</c>
+
+00:03:05.670 --> 00:03:05.680 align:start position:0%
+process however there are several major
+ 
+
+00:03:05.680 --> 00:03:09.190 align:start position:0%
+process however there are several major
+flaws<00:03:06.080><c> in</c><00:03:06.159><c> the</c><00:03:06.239><c> naive</c><00:03:06.720><c> working</c><00:03:07.120><c> flow</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+flaws in the naive working flow
+ 
+
+00:03:09.200 --> 00:03:11.350 align:start position:0%
+flaws in the naive working flow
+consider<00:03:09.680><c> that</c><00:03:09.840><c> for</c><00:03:10.080><c> any</c><00:03:10.239><c> deterministic</c><00:03:11.120><c> walk</c>
+
+00:03:11.350 --> 00:03:11.360 align:start position:0%
+consider that for any deterministic walk
+ 
+
+00:03:11.360 --> 00:03:13.990 align:start position:0%
+consider that for any deterministic walk
+policy<00:03:12.080><c> when</c><00:03:12.239><c> the</c><00:03:12.480><c> input</c><00:03:12.800><c> signals</c><00:03:13.200><c> are</c><00:03:13.360><c> fixed</c>
+
+00:03:13.990 --> 00:03:14.000 align:start position:0%
+policy when the input signals are fixed
+ 
+
+00:03:14.000 --> 00:03:16.550 align:start position:0%
+policy when the input signals are fixed
+the<00:03:14.239><c> output</c><00:03:14.640><c> will</c><00:03:14.879><c> always</c><00:03:15.200><c> be</c><00:03:15.360><c> the</c><00:03:15.519><c> same</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+the output will always be the same
+ 
+
+00:03:16.560 --> 00:03:18.869 align:start position:0%
+the output will always be the same
+such<00:03:16.879><c> that</c><00:03:17.280><c> in</c><00:03:17.440><c> its</c><00:03:17.680><c> current</c><00:03:18.080><c> form</c><00:03:18.560><c> if</c><00:03:18.720><c> we</c>
+
+00:03:18.869 --> 00:03:18.879 align:start position:0%
+such that in its current form if we
+ 
+
+00:03:18.879 --> 00:03:21.190 align:start position:0%
+such that in its current form if we
+visit<00:03:19.200><c> a</c><00:03:19.280><c> same</c><00:03:19.519><c> node</c><00:03:19.840><c> multiple</c><00:03:20.319><c> times</c><00:03:20.959><c> the</c>
+
+00:03:21.190 --> 00:03:21.200 align:start position:0%
+visit a same node multiple times the
+ 
+
+00:03:21.200 --> 00:03:23.190 align:start position:0%
+visit a same node multiple times the
+walk<00:03:21.440><c> policy</c><00:03:21.920><c> will</c><00:03:22.159><c> always</c><00:03:22.480><c> transit</c><00:03:22.879><c> to</c><00:03:23.040><c> the</c>
+
+00:03:23.190 --> 00:03:23.200 align:start position:0%
+walk policy will always transit to the
+ 
+
+00:03:23.200 --> 00:03:24.470 align:start position:0%
+walk policy will always transit to the
+same<00:03:23.440><c> point</c>
+
+00:03:24.470 --> 00:03:24.480 align:start position:0%
+same point
+ 
+
+00:03:24.480 --> 00:03:26.869 align:start position:0%
+same point
+this<00:03:24.799><c> causes</c><00:03:25.200><c> loops</c><00:03:25.760><c> that</c><00:03:26.000><c> carry</c><00:03:26.319><c> repeated</c>
+
+00:03:26.869 --> 00:03:26.879 align:start position:0%
+this causes loops that carry repeated
+ 
+
+00:03:26.879 --> 00:03:28.869 align:start position:0%
+this causes loops that carry repeated
+and<00:03:27.040><c> very</c><00:03:27.280><c> limited</c><00:03:27.760><c> information</c><00:03:28.400><c> for</c><00:03:28.560><c> each</c>
+
+00:03:28.869 --> 00:03:28.879 align:start position:0%
+and very limited information for each
+ 
+
+00:03:28.879 --> 00:03:32.710 align:start position:0%
+and very limited information for each
+curve<00:03:29.360><c> and</c><00:03:29.519><c> therefore</c><00:03:30.000><c> should</c><00:03:30.239><c> be</c><00:03:30.400><c> avoided</c>
+
+00:03:32.710 --> 00:03:32.720 align:start position:0%
+curve and therefore should be avoided
+ 
+
+00:03:32.720 --> 00:03:34.949 align:start position:0%
+curve and therefore should be avoided
+to<00:03:32.959><c> achieve</c><00:03:33.280><c> this</c><00:03:33.760><c> we</c><00:03:33.920><c> consider</c><00:03:34.400><c> not</c><00:03:34.640><c> only</c><00:03:34.799><c> the</c>
+
+00:03:34.949 --> 00:03:34.959 align:start position:0%
+to achieve this we consider not only the
+ 
+
+00:03:34.959 --> 00:03:36.789 align:start position:0%
+to achieve this we consider not only the
+point<00:03:35.280><c> features</c><00:03:35.680><c> itself</c><00:03:36.080><c> during</c><00:03:36.319><c> the</c><00:03:36.400><c> walk</c>
+
+00:03:36.789 --> 00:03:36.799 align:start position:0%
+point features itself during the walk
+ 
+
+00:03:36.799 --> 00:03:38.869 align:start position:0%
+point features itself during the walk
+but<00:03:37.040><c> also</c><00:03:37.360><c> a</c><00:03:37.440><c> curve</c><00:03:37.760><c> descriptor</c><00:03:38.319><c> that</c><00:03:38.480><c> encodes</c>
+
+00:03:38.869 --> 00:03:38.879 align:start position:0%
+but also a curve descriptor that encodes
+ 
+
+00:03:38.879 --> 00:03:41.030 align:start position:0%
+but also a curve descriptor that encodes
+the<00:03:39.040><c> overall</c><00:03:39.599><c> curve</c><00:03:39.920><c> progress</c>
+
+00:03:41.030 --> 00:03:41.040 align:start position:0%
+the overall curve progress
+ 
+
+00:03:41.040 --> 00:03:43.350 align:start position:0%
+the overall curve progress
+in<00:03:41.280><c> our</c><00:03:41.519><c> experiments</c><00:03:42.400><c> we</c><00:03:42.560><c> used</c><00:03:42.879><c> a</c><00:03:42.959><c> simple</c>
+
+00:03:43.350 --> 00:03:43.360 align:start position:0%
+in our experiments we used a simple
+ 
+
+00:03:43.360 --> 00:03:45.589 align:start position:0%
+in our experiments we used a simple
+dynamic<00:03:43.840><c> momentum</c><00:03:44.319><c> paradigm</c><00:03:44.879><c> to</c><00:03:45.120><c> encode</c><00:03:45.440><c> the</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+dynamic momentum paradigm to encode the
+ 
+
+00:03:45.599 --> 00:03:47.589 align:start position:0%
+dynamic momentum paradigm to encode the
+curve<00:03:45.920><c> progress</c>
+
+00:03:47.589 --> 00:03:47.599 align:start position:0%
+curve progress
+ 
+
+00:03:47.599 --> 00:03:49.430 align:start position:0%
+curve progress
+after<00:03:47.920><c> the</c><00:03:48.080><c> grouping</c><00:03:48.480><c> completes</c><00:03:49.280><c> our</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+after the grouping completes our
+ 
+
+00:03:49.440 --> 00:03:51.750 align:start position:0%
+after the grouping completes our
+proposed<00:03:50.000><c> curve</c><00:03:50.319><c> aggregation</c><00:03:50.879><c> module</c><00:03:51.519><c> then</c>
+
+00:03:51.750 --> 00:03:51.760 align:start position:0%
+proposed curve aggregation module then
+ 
+
+00:03:51.760 --> 00:03:53.750 align:start position:0%
+proposed curve aggregation module then
+maps<00:03:52.080><c> the</c><00:03:52.239><c> grouped</c><00:03:52.560><c> curves</c><00:03:52.879><c> back</c><00:03:53.120><c> to</c><00:03:53.280><c> enrich</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+maps the grouped curves back to enrich
+ 
+
+00:03:53.760 --> 00:03:55.429 align:start position:0%
+maps the grouped curves back to enrich
+all<00:03:53.920><c> point</c><00:03:54.239><c> features</c><00:03:54.640><c> with</c><00:03:54.799><c> the</c><00:03:54.879><c> encoded</c>
+
+00:03:55.429 --> 00:03:55.439 align:start position:0%
+all point features with the encoded
+ 
+
+00:03:55.439 --> 00:03:58.390 align:start position:0%
+all point features with the encoded
+geometric<00:03:56.080><c> information</c>
+
+00:03:58.390 --> 00:03:58.400 align:start position:0%
+geometric information
+ 
+
+00:03:58.400 --> 00:04:00.470 align:start position:0%
+geometric information
+we<00:03:58.560><c> then</c><00:03:58.799><c> embed</c><00:03:59.120><c> our</c><00:03:59.360><c> curve</c><00:03:59.680><c> grouping</c><00:04:00.080><c> module</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+we then embed our curve grouping module
+ 
+
+00:04:00.480 --> 00:04:02.470 align:start position:0%
+we then embed our curve grouping module
+and<00:04:00.640><c> curve</c><00:04:00.959><c> aggregation</c><00:04:01.599><c> module</c><00:04:02.080><c> into</c><00:04:02.319><c> a</c>
+
+00:04:02.470 --> 00:04:02.480 align:start position:0%
+and curve aggregation module into a
+ 
+
+00:04:02.480 --> 00:04:04.949 align:start position:0%
+and curve aggregation module into a
+simple<00:04:02.879><c> resnet</c><00:04:03.439><c> style</c><00:04:03.760><c> network</c><00:04:04.400><c> referred</c><00:04:04.799><c> to</c>
+
+00:04:04.949 --> 00:04:04.959 align:start position:0%
+simple resnet style network referred to
+ 
+
+00:04:04.959 --> 00:04:06.470 align:start position:0%
+simple resnet style network referred to
+as<00:04:05.200><c> curvenet</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+as curvenet
+ 
+
+00:04:06.480 --> 00:04:08.390 align:start position:0%
+as curvenet
+the<00:04:06.640><c> network</c><00:04:07.040><c> architecture</c><00:04:07.760><c> is</c><00:04:07.840><c> outlined</c><00:04:08.239><c> as</c>
+
+00:04:08.390 --> 00:04:08.400 align:start position:0%
+the network architecture is outlined as
+ 
+
+00:04:08.400 --> 00:04:10.789 align:start position:0%
+the network architecture is outlined as
+below<00:04:08.959><c> and</c><00:04:09.120><c> more</c><00:04:09.360><c> details</c><00:04:09.840><c> can</c><00:04:10.000><c> be</c><00:04:10.159><c> also</c><00:04:10.480><c> found</c>
+
+00:04:10.789 --> 00:04:10.799 align:start position:0%
+below and more details can be also found
+ 
+
+00:04:10.799 --> 00:04:12.710 align:start position:0%
+below and more details can be also found
+in<00:04:10.959><c> our</c><00:04:11.120><c> main</c><00:04:11.360><c> paper</c><00:04:11.840><c> and</c><00:04:12.000><c> supplementary</c>
+
+00:04:12.710 --> 00:04:12.720 align:start position:0%
+in our main paper and supplementary
+ 
+
+00:04:12.720 --> 00:04:15.190 align:start position:0%
+in our main paper and supplementary
+material
+
+00:04:15.190 --> 00:04:15.200 align:start position:0%
+material
+ 
+
+00:04:15.200 --> 00:04:17.189 align:start position:0%
+material
+our<00:04:15.439><c> proposed</c><00:04:15.920><c> method</c><00:04:16.239><c> was</c><00:04:16.400><c> benchmarked</c><00:04:17.040><c> on</c>
+
+00:04:17.189 --> 00:04:17.199 align:start position:0%
+our proposed method was benchmarked on
+ 
+
+00:04:17.199 --> 00:04:19.270 align:start position:0%
+our proposed method was benchmarked on
+three<00:04:17.440><c> most</c><00:04:17.680><c> fundamental</c><00:04:18.320><c> point</c><00:04:18.639><c> cloud</c><00:04:19.040><c> shape</c>
+
+00:04:19.270 --> 00:04:19.280 align:start position:0%
+three most fundamental point cloud shape
+ 
+
+00:04:19.280 --> 00:04:22.230 align:start position:0%
+three most fundamental point cloud shape
+analysis<00:04:19.919><c> tasks</c>
+
+00:04:22.230 --> 00:04:22.240 align:start position:0%
+analysis tasks
+ 
+
+00:04:22.240 --> 00:04:24.150 align:start position:0%
+analysis tasks
+our<00:04:22.479><c> curve</c><00:04:22.800><c> net</c><00:04:23.040><c> achieves</c><00:04:23.440><c> state-of-the-art</c>
+
+00:04:24.150 --> 00:04:24.160 align:start position:0%
+our curve net achieves state-of-the-art
+ 
+
+00:04:24.160 --> 00:04:26.629 align:start position:0%
+our curve net achieves state-of-the-art
+results<00:04:24.639><c> on</c><00:04:24.800><c> all</c><00:04:24.960><c> three</c><00:04:25.280><c> tasks</c><00:04:26.080><c> with</c><00:04:26.479><c> and</c>
+
+00:04:26.629 --> 00:04:26.639 align:start position:0%
+results on all three tasks with and
+ 
+
+00:04:26.639 --> 00:04:30.230 align:start position:0%
+results on all three tasks with and
+without<00:04:27.040><c> using</c><00:04:27.280><c> the</c><00:04:27.440><c> voting</c><00:04:27.840><c> strategy</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+without using the voting strategy
+ 
+
+00:04:30.240 --> 00:04:33.670 align:start position:0%
+without using the voting strategy
+finally<00:04:30.960><c> here</c><00:04:31.199><c> comes</c><00:04:31.440><c> our</c><00:04:31.600><c> conclusion</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+finally here comes our conclusion
+ 
+
+00:04:33.680 --> 00:04:35.749 align:start position:0%
+finally here comes our conclusion
+in<00:04:33.840><c> this</c><00:04:34.080><c> paper</c><00:04:34.639><c> we</c><00:04:34.800><c> proposed</c><00:04:35.280><c> a</c><00:04:35.360><c> novel</c>
+
+00:04:35.749 --> 00:04:35.759 align:start position:0%
+in this paper we proposed a novel
+ 
+
+00:04:35.759 --> 00:04:38.150 align:start position:0%
+in this paper we proposed a novel
+feature<00:04:36.160><c> aggregation</c><00:04:36.800><c> paradigm</c><00:04:37.600><c> for</c><00:04:37.840><c> point</c>
+
+00:04:38.150 --> 00:04:38.160 align:start position:0%
+feature aggregation paradigm for point
+ 
+
+00:04:38.160 --> 00:04:40.230 align:start position:0%
+feature aggregation paradigm for point
+cloud<00:04:38.560><c> shape</c><00:04:38.800><c> analysis</c>
+
+00:04:40.230 --> 00:04:40.240 align:start position:0%
+cloud shape analysis
+ 
+
+00:04:40.240 --> 00:04:42.310 align:start position:0%
+cloud shape analysis
+curves<00:04:40.639><c> are</c><00:04:40.800><c> grouped</c><00:04:41.280><c> and</c><00:04:41.520><c> aggregated</c><00:04:42.160><c> for</c>
+
+00:04:42.310 --> 00:04:42.320 align:start position:0%
+curves are grouped and aggregated for
+ 
+
+00:04:42.320 --> 00:04:44.310 align:start position:0%
+curves are grouped and aggregated for
+better<00:04:42.560><c> depiction</c><00:04:43.120><c> of</c><00:04:43.280><c> point</c><00:04:43.520><c> cloud</c><00:04:43.919><c> object</c>
+
+00:04:44.310 --> 00:04:44.320 align:start position:0%
+better depiction of point cloud object
+ 
+
+00:04:44.320 --> 00:04:45.830 align:start position:0%
+better depiction of point cloud object
+geometries
+
+00:04:45.830 --> 00:04:45.840 align:start position:0%
+geometries
+ 
+
+00:04:45.840 --> 00:04:47.830 align:start position:0%
+geometries
+we<00:04:46.080><c> studied</c><00:04:46.479><c> potential</c><00:04:46.960><c> drawbacks</c><00:04:47.520><c> during</c>
+
+00:04:47.830 --> 00:04:47.840 align:start position:0%
+we studied potential drawbacks during
+ 
+
+00:04:47.840 --> 00:04:50.070 align:start position:0%
+we studied potential drawbacks during
+curve<00:04:48.160><c> grouping</c><00:04:48.720><c> and</c><00:04:48.880><c> provide</c><00:04:49.360><c> solutions</c><00:04:49.919><c> to</c>
+
+00:04:50.070 --> 00:04:50.080 align:start position:0%
+curve grouping and provide solutions to
+ 
+
+00:04:50.080 --> 00:04:53.030 align:start position:0%
+curve grouping and provide solutions to
+avoid<00:04:50.479><c> loops</c><00:04:50.960><c> and</c><00:04:51.120><c> suppress</c><00:04:51.600><c> crossovers</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+avoid loops and suppress crossovers
+ 
+
+00:04:53.040 --> 00:04:54.950 align:start position:0%
+avoid loops and suppress crossovers
+our<00:04:53.280><c> curve</c><00:04:53.520><c> net</c><00:04:53.840><c> achieves</c><00:04:54.240><c> state-of-the-art</c>
+
+00:04:54.950 --> 00:04:54.960 align:start position:0%
+our curve net achieves state-of-the-art
+ 
+
+00:04:54.960 --> 00:04:57.189 align:start position:0%
+our curve net achieves state-of-the-art
+results<00:04:55.440><c> on</c><00:04:55.600><c> three</c><00:04:55.919><c> fundamental</c><00:04:56.479><c> point</c><00:04:56.800><c> cloud</c>
+
+00:04:57.189 --> 00:04:57.199 align:start position:0%
+results on three fundamental point cloud
+ 
+
+00:04:57.199 --> 00:05:01.240 align:start position:0%
+results on three fundamental point cloud
+object<00:04:57.600><c> analysis</c><00:04:58.240><c> tasks</c>
+

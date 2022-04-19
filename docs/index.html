@@ -1,10 +1,229 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>CurveNet</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="./index_files/icon.png">
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./index_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./index_files/codemirror.min.css">
+    <link rel="stylesheet" href="./index_files/app.css">
+    <link rel="stylesheet" href="./index_files/bootstrap.min(1).css">
+
+    <script type="text/javascript" async="" src="./index_files/analytics.js"></script>
+    <script type="text/javascript" async="" src="./index_files/analytics(1).js"></script>
+    <script async="" src="./index_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110862391-3');
+    </script>
+
+    <script src="./index_files/jquery.min.js"></script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <script src="./index_files/codemirror.min.js"></script>
+    <script src="./index_files/clipboard.min.js"></script>
+
+    <script src="./index_files/app.js"></script>
 </head>
-<body>
-123
-</body>
-</html>
+
+<body data-gr-c-s-loaded="true">
+    <div class="container" id="main">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis
+            <br /><br />
+            <!-- <small>
+                CVPR 2021 (Oral presentation)
+            </small>
+            <br /><br /> -->
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=sskixKkAAAAJ&hl">
+                          Tiange Xiang
+                        </a><sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="https://chaoyivision.github.io/">
+                        Chaoyi Zhang
+                        </a><sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="http://www.cse.unsw.edu.au/~ysong/">
+                        Yang Song
+                        </a><sup>2</sup>
+                    </li>
+                    <li>
+                        Jianhui Yu<sup>1</sup>
+                    </li>
+                     <li>
+                        <a href="https://weidong-tom-cai.github.io/">
+                          Weidong Cai
+                        </a><sup>1</sup>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <sup>1</sup>University of Sydney
+                    </li>
+                    <li>
+                        <sup>2</sup>University of New South Wales
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/abs/2105.01288" target='_blank'>
+                        <img src="./index_files/images/paper.png" height="80px"><br>
+                            <h4><strong>Main Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./supplementary.pdf" target='_blank'>
+                        <img src="./index_files/images/supp.png" height="80px"><br>
+                            <h4><strong>Supp. Materials</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#video">
+                        <img src="index_files/images/youtube_icon_dark.png" height="80px"><br>
+                            <h4><strong>Video</strong></h4>
+                        </a>
+                    </li>
+                     <!-- <li>
+                        <a href="#dataset">
+                        <img src="./index_files/images/data.png" height="80px"><br>
+                            <h4><strong>Data</strong></h4>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="https://github.com/tiangexiang/CurveNet">
+                        <img src="./index_files/images/github_pad.png" height="80px"><br>
+                            <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#BibTeX">
+                        <img src="./index_files/images/bibtex.jpg" height="80px"><br>
+                            <h4><strong>BibTeX</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Overview
+                </h3>
+                <img src="./index_files/images/teaser.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                    Discrete point cloud objects lack sufficient descriptions of shape geometries.
+                    In this paper, we present a novel method for aggregating curves in point clouds.
+                    Sequences of connected points (<i>curves</i>) are firstly grouped by taking guided walks in the point clouds,
+                    and then subsequently aggregated back to the point features.
+                    We provide an effective implementation of the proposed aggregation
+                    strategy including a novel <i>curve grouping</i> operator followed
+                    by a <i>curve aggregation</i> operator.
+                    Our method was benchmarked on several point cloud analysis tasks,
+                    and we achieved the state-of-the-art results on shape classification task,
+                    shape part segmentation task and shape normal estimation task.
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="video">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Video</h3><p style="color:blue;font-size:11px;">(contains audio w/ subtitles)</p>
+                <div class="text-center">
+                    <video id="video_id" width="100%" controls="" controlsList="nodownload">>
+                        <source src="./index_files/videos/video.mp4" type="video/mp4">
+                        <track label="English" kind="subtitles" srclang="en" src="./index_files/videos/captions.vtt">
+                    </video>
+
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                        var video = document.querySelector('#video_id'); // get the video element
+                        var tracks = video.textTracks; // one for each track element
+                        var track = tracks[0]; // corresponds to the first track element
+                        track.mode = 'hidden';});
+                    </script>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Highlights
+                </h3>
+                <p class="text-justify">
+                    <ul>
+                        <li>
+                            A long range feature aggregator focuses on object shape and geometry.
+                        </li>
+                        <li>
+                            State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>.
+                        </li>
+                        <li>
+                            State-of-the-art instance mIoU on ShapeNetPart segmentation: <b>86.6%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>86.8%</b> <i style="color:gray;font-size:8px;">w/ voting</i>.
+                        </li>
+                        <li>
+                            State-of-the-art cosine distance on ModelNet40 normal estimation: <b>0.11</b>.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="BibTeX">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    BibTeX
+                </h3>
+               If you find our data or project useful in your research, please cite:
+                <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
+@InProceedings{Xiang_2021_ICCV,
+    author    = {Xiang, Tiange and Zhang, Chaoyi and Song, Yang and Yu, Jianhui and Cai, Weidong},
+    title     = {Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {915-924}
+}</pre>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgments
+                </h3>
+                The website template was borrowed from <a href="https://sggpoint.github.io">Chaoyi Zhang</a>.
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
