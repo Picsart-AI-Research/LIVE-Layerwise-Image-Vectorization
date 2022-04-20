@@ -2,7 +2,7 @@
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>CurveNet</title>
+    <title>LIVE</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,70 +35,102 @@
 
 <body data-gr-c-s-loaded="true">
     <div class="container" id="main">
+        <!-- Section: title -->
         <div class="row">
             <h1 class="col-md-12 text-center">
-                Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis
-            <br /><br />
-            <!-- <small>
-                CVPR 2021 (Oral presentation)
+                LIVE: Towards Layer-wise Image Vectorization
+            <br>
+            <small>
+                CVPR 2022 (Oral presentation)
             </small>
-            <br /><br /> -->
+            <br /><br />
             </h1>
         </div>
+
+        <!-- Section: authors -->
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <li>
-                        <a href="https://scholar.google.com/citations?user=sskixKkAAAAJ&hl">
-                          Tiange Xiang
+                        <a href="https://ma-xu.github.io/">
+                          Xu Ma
                         </a><sup>1</sup>
                     </li>
                     <li>
-                        <a href="https://chaoyivision.github.io/">
-                        Chaoyi Zhang
-                        </a><sup>1</sup>
+                        <a href="https://yzhouas.github.io/">
+                        Yuqian Zhou
+                        </a><sup>2,3</sup>
                     </li>
                     <li>
-                        <a href="http://www.cse.unsw.edu.au/~ysong/">
-                        Yang Song
+                        <a href="https://www.linkedin.com/in/xingqian-xu-97b46526/">
+                        Xingqian Xu
                         </a><sup>2</sup>
                     </li>
                     <li>
-                        Jianhui Yu<sup>1</sup>
-                    </li>
-                     <li>
-                        <a href="https://weidong-tom-cai.github.io/">
-                          Weidong Cai
+                        <a href="https://www.linkedin.com/in/bin-sun-2993b4142/">
+                        Bin Sun
                         </a><sup>1</sup>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/valeriy-filev-4704a9123/">
+                        Valerii Filev
+                        </a><sup>4</sup>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/nukich74/">
+                        Nikita Orlov
+                        </a><sup>4</sup>
+                    </li>
+
+                    <li>
+                        <a href="http://www1.ece.neu.edu/~yunfu/">
+                        Yun Fu
+                        </a><sup>1</sup>
+                    </li>
+
+                    <li>
+                        <a href="https://www.humphreyshi.com/home">
+                        Humphrey Shi
+                        </a><sup>2,4</sup>
                     </li>
                 </ul>
             </div>
         </div>
 
+        <!-- Section: Affiliations -->
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <li>
-                        <sup>1</sup>University of Sydney
+                        <sup>1</sup>Northeastern University
                     </li>
                     <li>
-                        <sup>2</sup>University of New South Wales
+                        <sup>2</sup>UIUC
+                    </li>
+                    <li>
+                        <sup>3</sup>Adobe Research
+                    </li>
+                    <li>
+                        <sup>4</sup>Picsart AI Research (PAIR)
                     </li>
                 </ul>
             </div>
         </div>
 
+        <!-- Section: Links -->
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
                 <ul class="nav nav-pills nav-justified">
                     <li>
-                        <a href="https://arxiv.org/abs/2105.01288" target='_blank'>
+                        <a href="./index_files/CVPR22_LIVE_main.pdf" target='_blank'>
                         <img src="./index_files/images/paper.png" height="80px"><br>
                             <h4><strong>Main Paper</strong></h4>
                         </a>
                     </li>
                     <li>
-                        <a href="./supplementary.pdf" target='_blank'>
+                        <a href="./index_files/CVPR22_LIVE_supp.pdf" target='_blank'>
                         <img src="./index_files/images/supp.png" height="80px"><br>
                             <h4><strong>Supp. Materials</strong></h4>
                         </a>
@@ -106,52 +138,90 @@
                     <li>
                         <a href="#video">
                         <img src="index_files/images/youtube_icon_dark.png" height="80px"><br>
-                            <h4><strong>Video</strong></h4>
+                            <h4><strong> Demo Video</strong></h4>
                         </a>
                     </li>
-                     <!-- <li>
-                        <a href="#dataset">
-                        <img src="./index_files/images/data.png" height="80px"><br>
-                            <h4><strong>Data</strong></h4>
-                        </a>
-                    </li> -->
                     <li>
-                        <a href="https://github.com/tiangexiang/CurveNet">
+                        <a href="#dataset">
+                        <img src="./index_files/images/huggingface.png" height="80px"><br>
+                            <h4><strong>Hugging face Space</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://colab.research.google.com/drive/1s108WmqSVH9MILOjSAu29QyAEjExOWAP?usp=sharing">
+                        <img src="./index_files/images/colab.png" height="80px"><br>
+                            <h4><strong>Colab Demo</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization">
                         <img src="./index_files/images/github_pad.png" height="80px"><br>
-                            <h4><strong>Code</strong></h4>
+                            <h4><strong>Github Code</strong></h4>
                         </a>
                     </li>
                     <li>
                         <a href="#BibTeX">
                         <img src="./index_files/images/bibtex.jpg" height="80px"><br>
-                            <h4><strong>BibTeX</strong></h4>
+                            <h4><strong>BibTeX Citation</strong></h4>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
 
+        <!-- Section: Abstract -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+                    Image rasterization is a mature technique in computer graphics, while image vectorization, the reverse path of rasterization, remains a major challenge. Recent advanced deep learning-based models achieve vectorization and semantic interpolation of vector graphs and demonstrate a better topology of generating new figures. However, deep models cannot be easily generalized to out-of-domain testing data. The generated SVGs also contain complex and redundant shapes that are not quite convenient for further editing. Specifically, the crucial layer-wise topology and fundamental semantics in images are still not well understood and thus not fully explored. In this work, we propose Layer-wise Image Vectorization, namely LIVE, to convert raster images to SVGs and simultaneously maintain its image topology. LIVE can generate compact SVG forms with layer-wise structures that are semantically consistent with human perspective. We progressively add new bezier paths and optimize these paths with the layer-wise framework, newly designed loss functions, and component-wise path initialization technique. Our experiments demonstrate that LIVE presents more plausible vectorized forms than prior works and can be generalized to new images. With the help of this newly learned topology, LIVE initiates human editable SVGs for both designers and other downstream applications. 
+                </p>
+            </div>
+        </div>
+
+        <!-- Section: Teasers -->
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Overview
                 </h3>
-                <img src="./index_files/images/teaser.png" class="img-responsive" alt="overview"><br>
+                <img src="./index_files/images/teaser1.png" class="img-responsive" alt="overview"><br>
                 <p class="text-justify">
-                    Discrete point cloud objects lack sufficient descriptions of shape geometries.
-                    In this paper, we present a novel method for aggregating curves in point clouds.
-                    Sequences of connected points (<i>curves</i>) are firstly grouped by taking guided walks in the point clouds,
-                    and then subsequently aggregated back to the point features.
-                    We provide an effective implementation of the proposed aggregation
-                    strategy including a novel <i>curve grouping</i> operator followed
-                    by a <i>curve aggregation</i> operator.
-                    Our method was benchmarked on several point cloud analysis tasks,
-                    and we achieved the state-of-the-art results on shape classification task,
-                    shape part segmentation task and shape normal estimation task.
+                    We present a new method to progressively generate a SVG that fits the raster image in a layer-wise fashion. Given an arbitrary input image, LIVE recursively learns the visual concepts by adding new optimizable closed bezier paths and optimizing all these paths.
+                </p>
+                <br>
+                <br>
+
+                <img src="./index_files/images/teaser2.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                    More examples of layer-wise representation. Given a simple image, our LIVE is able to learn each component in the image in a layer-wise fashion. Here we show the learning progress using 8 paths, where each output appends a new path to the previous result.
                 </p>
             </div>
         </div>
 
+
+        <!-- Section: GIF -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Comparsions
+                </h3>
+
+                <div align="center">
+                    <img src="./index_files/images/gifs/smile.png" width="150px" height="150px" alt="Elephant at sunset">
+                    <img src="./index_files/images/gifs/out_diffvg_4.gif" width="150px" height="150px" alt="Elephant at sunset">
+                    <img src="./index_files/images/gifs/out_diffvg_256.gif" width="150px" height="150px" alt="Elephant at sunset">
+                    <img src="./index_files/images/gifs/out_live.gif" width="150px" height="150px" alt="Elephant at sunset">
+                </div>
+                From left to right are (1)<b>input raster image</b>,  (2)output SVGs of <b>DiffVG (path=5)</b>, (3)output SVGs of <b>DiffVG (path=256)</b>, and (4)output of our <b>LIVE (path=5)</b>.
+                With only 5 paths, DiffVG cannot reconstruct the input image. When increasing the path number to 256 (which is significantly larger than the number of necessary paths), DiffVG is able to reconstruct the input. 
+                Differently, our LIVE is able to reconstruct the input smiling face by only 5 paths, and shows a compact layer-wise representation (<small>We re-scale the speed to match the three gifs.</small>).
+            </div>
+        </div>
+
+        <!-- Section: Video-->
         <div class="row" id="video">
             <div class="col-md-8 col-md-offset-2">
                 <h3>Video</h3><p style="color:blue;font-size:11px;">(contains audio w/ subtitles)</p>
@@ -173,54 +243,36 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h3>
-                    Highlights
-                </h3>
-                <p class="text-justify">
-                    <ul>
-                        <li>
-                            A long range feature aggregator focuses on object shape and geometry.
-                        </li>
-                        <li>
-                            State-of-the-art accuracy on ModelNet40 classification: <b>93.8%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>94.2%</b> <i style="color:gray;font-size:8px;">w/ voting</i>.
-                        </li>
-                        <li>
-                            State-of-the-art instance mIoU on ShapeNetPart segmentation: <b>86.6%</b> <i style="color:gray;font-size:8px;">w/o voting</i>, <b>86.8%</b> <i style="color:gray;font-size:8px;">w/ voting</i>.
-                        </li>
-                        <li>
-                            State-of-the-art cosine distance on ModelNet40 normal estimation: <b>0.11</b>.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </div>
 
+        <!--Section: Citation-->
         <div class="row" id="BibTeX">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     BibTeX
                 </h3>
-               If you find our data or project useful in your research, please cite:
+               If you find our project useful in your research, please cite:
                 <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 10px">
-@InProceedings{Xiang_2021_ICCV,
-    author    = {Xiang, Tiange and Zhang, Chaoyi and Song, Yang and Yu, Jianhui and Cai, Weidong},
-    title     = {Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {915-924}
-}</pre>
+                    <code>
+@InProceedings{xu2022live,
+    author    = {Ma, Xu and Zhou, Yuqian and Xu, Xingqian and Sun, Bin and Filev, Valerii and  Orlov, Nikita and Fu, Yun and Shi, Humphrey},
+    title     = {Towards Layer-wise Image Vectorization},
+    booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition},
+    year      = {2022}
+}
+            </code>
+            </pre>
             </div>
         </div>
+
+        <!--Section: Acknowledgment-->
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Acknowledgments
                 </h3>
-                The website template was borrowed from <a href="https://sggpoint.github.io">Chaoyi Zhang</a>.
+                The website template was borrowed from <a href="https://curvenet.github.io/">CurveNet</a>.
                 <p></p>
+                <br><br><br>
             </div>
         </div>
     </div>
