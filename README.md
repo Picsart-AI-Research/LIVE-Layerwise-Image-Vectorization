@@ -9,10 +9,12 @@
 [Yun Fu](http://www1.ece.neu.edu/~yunfu/), 
 [Humphrey Shi](https://www.humphreyshi.com/home)
 
-[[arXiv]()], 
-[[Colab Demo]()], 
-[[HuggingFace Space]()], 
-Primary contact: [[Xu Ma](mailto:ma.xu1@northeastern.edu)]
+
+[![arXiv](https://img.shields.io/badge/📃-arXiv-ff69b4)](), 
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s108WmqSVH9MILOjSAu29QyAEjExOWAP?usp=sharing), 
+[![Huggingface space](https://img.shields.io/badge/🤗-Huggingface%20space-brightgreen.svg)](https://huggingface.co/spaces/nateraw/host-a-blog-on-huggingface-spaces)
+
+Primary contact: [Xu Ma](mailto:ma.xu1@northeastern.edu)
 
 <br><br>
 <div align="center">
