@@ -40,8 +40,8 @@ We suggest users to use the conda for creating new python environment.
 **Requirement**: 5.0<GCC<6.0;  nvcc >10.0.
 
 ```bash
-git clone git@github.com:ma-xu/LIVE.git
-cd LIVE
+git clone https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization.git
+cd LIVE-Layerwise-Image-Vectorization
 conda create -n live python=3.7
 conda activate live
 conda install -y pytorch torchvision -c pytorch
