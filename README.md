@@ -82,6 +82,6 @@ Our implementation is mainly based on the [diffvg](https://github.com/BachiLi/di
 
 
 ## LICENSE
-LIVE is under the Apache-2.0 license. Please contact the authors for commercial use.
+LIVE is under the Apache-2.0 license.
 
 
