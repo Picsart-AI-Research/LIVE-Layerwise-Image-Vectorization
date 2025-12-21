@@ -367,9 +367,14 @@ if __name__ == "__main__":
     with open(osp.join(configfile), 'w') as f:
         yaml.dump(edict_2_dict(cfg), f)
 
-    # Use GPU if available
+    # Use GPU if available - diffvg C++ only supports CUDA or CPU
     pydiffvg.set_use_gpu(torch.cuda.is_available())
     device = pydiffvg.get_device()
+
+    # Set up MPS training device for PyTorch operations (Apple Silicon GPU)
+    training_device = pydiffvg.get_best_training_device()
+    pydiffvg.set_training_device(training_device)
+    print(f"Render device: {device}, Training device: {training_device}")
 
     gt = np.array(PIL.Image.open(cfg.target))
     print(f"Input image shape is: {gt.shape}")
@@ -380,7 +385,7 @@ if __name__ == "__main__":
         print("Input image includes alpha channel, simply dropout alpha channel.")
         gt = gt[:, :, :3]
     gt = (gt/255).astype(np.float32)
-    gt = torch.FloatTensor(gt).permute(2, 0, 1)[None].to(device)
+    gt = torch.FloatTensor(gt).permute(2, 0, 1)[None].to(training_device)
     if cfg.use_ycrcb:
         gt = ycrcb_conversion(gt)
     h, w = gt.shape[2:]
@@ -403,15 +408,15 @@ if __name__ == "__main__":
         para_stroke_width, para_stroke_color = {}, {}
 
     pathn_record = []
-    # Background
+    # Background - use training_device for MPS acceleration
     if cfg.trainable.bg:
         # meancolor = gt.mean([2, 3])[0]
-        para_bg = torch.tensor([1., 1., 1.], requires_grad=True, device=device)
+        para_bg = torch.tensor([1., 1., 1.], requires_grad=True, device=training_device)
     else:
         if cfg.use_ycrcb:
-            para_bg = torch.tensor([219/255, 0, 0], requires_grad=False, device=device)
+            para_bg = torch.tensor([219/255, 0, 0], requires_grad=False, device=training_device)
         else:
-            para_bg = torch.tensor([1., 1., 1.], requires_grad=False, device=device)
+            para_bg = torch.tensor([1., 1., 1.], requires_grad=False, device=training_device)
 
     ##################
     # start_training #
@@ -496,10 +501,13 @@ if __name__ == "__main__":
             for _, (optim, _) in optim_schedular_dict.items():
                 optim.zero_grad()
 
-            # Forward pass: render the image.
+            # Forward pass: render the image (on CPU via diffvg)
             scene_args = pydiffvg.RenderFunction.serialize_scene(
                 w, h, shapes_record, shape_groups_record)
             img = render(w, h, 2, 2, t, None, *scene_args)
+
+            # Move rendered image to training device (MPS) for loss computation
+            img = img.to(training_device)
 
             # Compose img with white background
             img = img[:, :, 3:4] * img[:, :, :3] + \
@@ -520,7 +528,7 @@ if __name__ == "__main__":
             x = img.unsqueeze(0).permute(0, 3, 1, 2) # HWC -> NCHW
 
             if cfg.use_ycrcb:
-                color_reweight = torch.FloatTensor([255/219, 255/224, 255/255]).to(device)
+                color_reweight = torch.FloatTensor([255/219, 255/224, 255/255]).to(training_device)
                 loss = ((x-gt)*(color_reweight.view(1, -1, 1, 1)))**2
             else:
                 loss = ((x-gt)**2)
@@ -534,10 +542,10 @@ if __name__ == "__main__":
                 shapes_forsdf = copy.deepcopy(shapes)
                 shape_groups_forsdf = copy.deepcopy(shape_groups)
                 for si in shapes_forsdf:
-                    si.stroke_width = torch.FloatTensor([0]).to(device)
+                    si.stroke_width = torch.FloatTensor([0]).to(device)  # Keep on render device for diffvg
                 for sg_idx, sgi in enumerate(shape_groups_forsdf):
-                    sgi.fill_color = torch.FloatTensor([1, 1, 1, 1]).to(device)
-                    sgi.shape_ids = torch.LongTensor([sg_idx]).to(device)
+                    sgi.fill_color = torch.FloatTensor([1, 1, 1, 1]).to(device)  # Keep on render device for diffvg
+                    sgi.shape_ids = torch.LongTensor([sg_idx]).to(device)  # Keep on render device for diffvg
 
                 sargs_forsdf = pydiffvg.RenderFunction.serialize_scene(
                     w, h, shapes_forsdf, shape_groups_forsdf)
@@ -548,7 +556,7 @@ if __name__ == "__main__":
                 loss_weight = get_sdf(im_forsdf, normalize='to1')
                 loss_weight += loss_weight_keep
                 loss_weight = np.clip(loss_weight, 0, 1)
-                loss_weight = torch.FloatTensor(loss_weight).to(device)
+                loss_weight = torch.FloatTensor(loss_weight).to(training_device)
 
             if cfg.save.loss:
                 save_loss = loss.squeeze(dim=0).mean(dim=0,keepdim=False).cpu().detach().numpy()
